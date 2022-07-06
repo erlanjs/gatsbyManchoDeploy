@@ -29,7 +29,7 @@ const Gallery = () => {
                 <h1 className="font-[900] text-black text-2xl pt-20 ssm:text-white sm:text-white md:text-white lg:text-black xl:text-black xxl:text-black">Присоединяйся к команде Mancho Devs!</h1>
                 <p className="font-[300] text-[#1F1F1F] mt-3 text-[15px] ssm:text-white sm:text-white md:text-white lg:text-black xl:text-[#1F1F1F] xxl:text-[#1F1F1F]">Мы всегда в поисках талантливых людей, готовых работать над сложными и интересными задачами вместе с нами</p>
                 <div className="my-4">
-                  <Link to={'/about-company'}>
+                  <Link to={'/join-us'}>
                     <button className="bg-black px-8 py-3 rounded text-white font-[700] text-[12px] ssm:bg-white ssm:text-black sm:bg-white sm:text-black md:bg-white md:text-black lg:bg-black lg:text-white xl:bg-black xl:text-white xxl:bg-black xxl:bg-black">Присоединяйся к нам!</button>
                   </Link>
                   <span></span>
@@ -76,14 +76,14 @@ const Gallery = () => {
                 alt="images"
                 className="w-[100%] h-[258px] my-2 ssm:h-[187px] sm:h-[187px] md:h-[329px]"
               />
-              <StaticImage
-                src={"../../../images/gallery_img_6.png"}
-                loading="eager"
-                quality={95}
-                formats={["auto", "webp", "avif"]}
-                alt="images"
-                className="w-[100%] block lg:hidden h-[258px] my-2 ssm:h-[187px] sm:h-[187px] md:h-[329px]"
-              />
+              {/*<StaticImage*/}
+              {/*  src={"../../../images/gallery_img_6.png"}*/}
+              {/*  loading="eager"*/}
+              {/*  quality={95}*/}
+              {/*  formats={["auto", "webp", "avif"]}*/}
+              {/*  alt="images"*/}
+              {/*  className="w-[100%] block lg:hidden h-[258px] my-2 ssm:h-[187px] sm:h-[187px] md:h-[329px]"*/}
+              {/*/>*/}
 
             </div>
 

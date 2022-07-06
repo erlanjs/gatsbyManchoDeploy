@@ -3,6 +3,7 @@ import { useState } from "react";
 import {StaticImage} from  "gatsby-plugin-image"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faX , faBars } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "gatsby";
 
 
 const Burgermenu = () => {
@@ -34,23 +35,30 @@ const Burgermenu = () => {
                 <h1 className="text-9xl h-[120px] font-[900] pl-3">D</h1>
                 <h1 className="text-9xl h-[120px] font-[900] pl-3">E</h1>
                 <h1 className="text-9xl h-[120px] font-[900] pl-3">V</h1>
-                <div className="text-9xl w-[170%] mt-3 pl-4 mr-5 h-[140px] font-[900] text-white bg-[#1F1F1F] flex justify-between">S
-                  <div className="flex justify-between w-[70%] bg-[#1F1F1F] flex-wrap">
-                  <p className="text-xl w-[26%]">aza</p>
-                  <p className="text-xl w-[26%]">aza</p>
-                  <p className="text-xl w-[26%]">aza</p>
-                  <p className="text-xl w-[26%]">aza</p>
-                  <p className="text-xl w-[26%]">aza</p>
-                  <p className="text-xl w-[26%]">aza</p>
+                <div className="text-9xl w-[170%] mt-3 pl-4 mr-5 h-[140px] font-[900] text-white bg-[#1F1F1F] w-full flex justify-between">S
+                  <div className="flex justify-between w-[70%] bg-[#1F1F1F] flex-wrap mt-5">
+                  <p className="text-xl w-[26%]"><i className="fa-brands fa-facebook-f"/></p>
+                  <p className="text-xl w-[26%]"><i className="fa-brands fa-linkedin-in"/></p>
+                  <p className="text-xl w-[26%]"><i className="fa-brands fa-telegram"/></p>
+                  <p className="text-xl w-[26%]"><i className="fa-brands fa-twitter"/></p>
+                  <p className="text-xl w-[26%]"><i className="fa-brands fa-instagram"/></p>
+                  <p className="text-xl w-[26%]"><i className="fa-brands fa-youtube"/></p>
+
                   </div>
                 </div>
               </div>
               <div className="flex flex-col justify-between w-[50%] h-[350px]">
                 <div className="flex flex-col mt-7 justify-end h-[250px]">
-                  <a href="#" className="text-[24px] leading-[40px] text-[#1F1F1F] pb-5 ">home</a>
-                  <a href="#" className="text-[24px] leading-[40px] text-[#1F1F1F] pb-5 ">about</a>
-                  <a href="#" className="text-[24px] leading-[40px] text-[#1F1F1F] pb-5 ">sign in</a>
-                  <a href="#" className="text-[24px] leading-[40px] text-[#1F1F1F] pb-5 ">register</a>
+                  <Link onClick={() => setMenu(false)} to={"#About"} className="text-[20px] leading-[40px] text-[#1F1F1F] pb-5 ">О компании</Link>
+                  <Link onClick={() => setMenu(false)} to={"#Products"} className="text-[20px] leading-[40px] text-[#1F1F1F] pb-5 ">Продукты</Link>
+                  <Link onClick={() => setMenu(false)} to={"#AllCommand"} className="text-[20px] leading-[40px] text-[#1F1F1F] pb-5 ">Наша команда</Link>
+                  <Link onClick={() => setMenu(false)} to={"#Contact"} className="text-[20px] leading-[40px] text-[#1F1F1F] pb-5 ">Контакты</Link>
+                </div>
+
+                <div className="flex">
+                  <h3 className="font-bold text-2xl mr-3">En</h3>
+                  <h3 className="font-bold text-2xl mr-3">Ru</h3>
+                  <h3 className="font-bold text-2xl mr-3">Kg</h3>
                 </div>
               </div>
             </div>

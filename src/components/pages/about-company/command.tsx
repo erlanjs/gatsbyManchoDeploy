@@ -1,5 +1,6 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
+import { Link } from "gatsby";
 
 const Command = (): JSX.Element => {
   return (
@@ -15,7 +16,9 @@ const Command = (): JSX.Element => {
             <div className="pt-72 w-[50%] hidden lg:block xl:block xxl:block">
               <p className="font-[900] text-[34px] ">Присоединяйся к команде Mancho Devs!</p>
               <p className="font-[700] my-12 text-[15px]">Мы всегда в поисках талантливых людей, готовых работать над сложными и интересными задачами вместе с нами</p>
-              <button className="rounded py-3 px-6 border-[3px] border-black text-[12px] font-[700]">Открытые вакансии</button>
+              <Link to={"#Vacancy"}>
+                <button className="rounded py-3 px-6 border-[3px] border-black text-[12px] font-[700]">Открытые вакансии</button>
+              </Link>
             </div>
 
             <div className="w-[50%] bg-[#1F1F1F] mt-44 ssm:w-[100%] ssm:mt-10  sm:w-[100%] sm:mt-10 md:w-[100%] md:mt-10 lg:w-[50%] lg:mt-44 xl:w-[50%] xl:mt-44 xxl:w-[50%] xxl:mt-44">

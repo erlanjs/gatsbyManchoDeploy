@@ -1,5 +1,6 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
+import { Link } from "gatsby";
 
 const HeroTwo = () => {
   return (
@@ -20,7 +21,9 @@ const HeroTwo = () => {
                  <p>
                    Наша миссия — оптимизировать процессы, используя технологии, во благо людей.
                  </p>
-                 <button className='bg-black mt-4 rounded p-4 text-white'>Присоединяйся к нам!</button>
+                 <Link to={"/join-us"}>
+                   <button className='bg-black mt-5 rounded p-4 text-white'>Присоединяйся к нам!</button>
+                 </Link>
                </div>
              </div>
              <div className="w-[49%] mt-[-80px]">

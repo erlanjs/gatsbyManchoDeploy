@@ -5,7 +5,7 @@ import { accordionBD } from "../../accordion/db";
 
 const Vacancy = () => {
   return (
-    <section>
+    <section id={"Vacancy"}>
       <div className="container mx-auto">
         <div className="flex justify-between bg-white items-center ssm:hidden sm:hidden  md:hidden lg:block xl:block xxl:block">
           <div className="flex justify-between items-center leading-0 hidden lg:flex">

@@ -8,7 +8,7 @@ const Products = (): JSX.Element => {
 
 
     return (
-      <section className="">
+      <section id="Products">
         <div className="container mx-auto mt-[100px]">
           <div className="flex justify-between items-center">
             <h1 className="text-5xl font-bold text-black lg:text-9xl xl:text-8xl md:text-7xl">Product<span className="text-white bg-black pr-8">s</span></h1>
