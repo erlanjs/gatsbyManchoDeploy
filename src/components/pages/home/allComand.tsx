@@ -31,7 +31,7 @@ const AllCommand = (): JSX.Element => {
 
     return (
       <section id={"AllCommand"}>
-        <div id="AllCommand">
+        <div >
           <div className="container mx-auto py-3 w-full block mt-24 xxl:hidden">
             <span className="text-5xl font-bold text-[#1F1F1F] md:text-7xl">Наша </span>
           </div>
@@ -55,11 +55,31 @@ const AllCommand = (): JSX.Element => {
                     const img = getImage(image)
                     return (
                       <>
-                        <div key={post.id} className="w-[256px]  mt-7" data-testid="AllCommand-elem">
-
-                          <GatsbyImage image={img} alt={name}/>
-                          <h3 className="font-bold text-xl text-white mt-5 ">{name}</h3>
-                          <h4 className="font-normal text-xs text-white mt-5">{role}</h4>
+                        <div className="hidden lg:block">
+                          <div key={post.id} className=" box " data-testid="AllCommand-elem">
+                            <div className="boxIcons opacity-0 absolute z-40 right-0 mt-2">
+                              <span className="text-2xl text-white mr-3 cursor-pointer"><i className="fab fa-instagram"/></span>
+                              <span className="text-2xl mr-3 text-white cursor-pointer"><i className="fab fa-linkedin-in"/></span>
+                            </div>
+                            <div className="imgBox">
+                              <GatsbyImage image={img} alt={name} className="imgBoxImg"/>
+                            </div>
+                            <h3 className="font-bold text-xl text-white ml-1 mt-5 absolute imgBoxTitle whitespace-nowrap">{name}</h3>
+                            <h4 className="font-normal text-xs text-white ml-1 mt-14 absolute imgBoxTitleDesc">{role}</h4>
+                          </div>
+                        </div>
+                        <div className="block lg:hidden">
+                          <div className=" w-[256px] h-[280px] relative mt-12">
+                            <GatsbyImage image={img} alt={name} className="h-full"/>
+                            <div className="absolute top-0 right-0 mt-3">
+                              <span className="text-2xl text-white mr-3 cursor-pointer"><i className="fab fa-instagram"/></span>
+                              <span className="text-2xl mr-3 text-white cursor-pointer"><i className="fab fa-linkedin-in"/></span>
+                            </div>
+                            <div className="absolute bottom-0">
+                              <h3 className="font-bold text-xl text-white ml-1 mt-5 ">{name}</h3>
+                              <h4 className="font-normal text-xs text-white ml-1 mt-2 mb-2 ">{role}</h4>
+                            </div>
+                          </div>
                         </div>
 
                       </>

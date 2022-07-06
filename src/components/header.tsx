@@ -29,10 +29,10 @@ const Header = () => (
       </div>
       <div className="w-[70%] flex justify-center ssm:hidden sm:hidden md:hidden lg:block xl:block xxl:block">
         <div className="flex justify-between w-full pt-5">
-          <Link to={"#About"} className="text-white no-underline">О компании</Link>
-          <Link to={"#Products"} className="text-white no-underline">Продукты</Link>
-          <Link to={"#AllCommand"} className="text-white no-underline">Наша команда</Link>
-          <Link to={"#Contact"} className="text-white no-underline">Контакты</Link>
+          <Link to={"#About"} className="text-white no-underline hover:border-white hover:border-b-2">О компании</Link>
+          <Link to={"#Products"} className="text-white no-underline hover:border-white hover:border-b-2">Продукты</Link>
+          <Link to={"#AllCommand"} className="text-white no-underline hover:border-white hover:border-b-2">Наша команда</Link>
+          <Link to={"#Contact"} className="text-white no-underline hover:border-white hover:border-b-2">Контакты</Link>
         </div>
       </div>
     </div>
