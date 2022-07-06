@@ -9,8 +9,8 @@ const Command = (): JSX.Element => {
         <div className="container mx-auto">
           <div className="flex justify-between ssm:flex ssm:flex-col sm:flex sm:flex-col md:flex-col lg:flex-row xl:flex-row xxl:flex-row">
             <div className=" w-[100%] mt-[60px] block  lg:hidden xl:hidden xxl:hidden">
-              <p className="font-black text-[21px] text-white mt-[90px]">Присоединяйся к команде Mancho Devs!</p>
-              <p className="font-[500] text-[12px] text-black ssm:mt-3 sm:mt-3 md:mt-10">Мы всегда в поисках талантливых людей, готовых работать над сложными и интересными задачами вместе с нами</p>
+              <p className="font-black text-[25px] text-white mt-[80px]">Присоединяйся к команде Mancho Devs!</p>
+              <p className="font-[500] text-[18px] text-black ssm:mt-3 sm:mt-3 md:mt-10">Мы всегда в поисках талантливых людей, готовых работать над сложными и интересными задачами вместе с нами</p>
               <button className="rounded py-2 px-4 border-[2px] mt-5 border-black text-[11px] font-[700] text-black">Открытые вакансии</button>
             </div>
             <div className="pt-72 w-[50%] hidden lg:block xl:block xxl:block">

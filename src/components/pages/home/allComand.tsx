@@ -64,7 +64,7 @@ const AllCommand = (): JSX.Element => {
                             <div className="imgBox">
                               <GatsbyImage image={img} alt={name} className="imgBoxImg"/>
                             </div>
-                            <h3 className="font-bold text-xl text-white ml-1 mt-5 absolute imgBoxTitle">{name}</h3>
+                            <h3 className="font-bold text-xl text-white ml-1 mt-5 absolute imgBoxTitle whitespace-nowrap">{name}</h3>
                             <h4 className="font-normal text-xs text-white ml-1 mt-14 absolute imgBoxTitleDesc">{role}</h4>
                           </div>
                         </div>

@@ -20,7 +20,7 @@ const About = (): JSX.Element => {
               quality={95}
               formats={["auto", "webp", "avif"]}
               alt=""
-              className="w-9/12 ssm:w-full ssm:h-[200px] sm:w-full sm:h-[190px] md:w-full md:h-[380px] lg:w-[90%] lg:mt-[-50px]  lg:h-[440px] xl:mt-0 xl:full xl:h-[360px] xxl:9/12 xxl:h-[360px]"/>
+              className="w-9/12 ssm:w-full ssm:h-[200px] sm:w-full sm:h-[320px] md:w-full md:h-[380px] lg:w-[90%] lg:mt-[-50px]  lg:h-[440px] xl:mt-0 xl:full xl:h-[360px] xxl:9/12 xxl:h-[360px]"/>
           </div>
           <div className=" flex justify-start w-full xl:justify-center xl:w-[50%] xxl:w-[50%]">
             <div className="w-[100%] xl:w-[80%]">

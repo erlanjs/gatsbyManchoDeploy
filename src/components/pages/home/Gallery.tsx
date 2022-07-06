@@ -23,7 +23,7 @@ const Gallery = () => {
                 quality={95}
                 formats={["auto", "webp", "avif"]}
                 alt="images"
-                className="w-[100%] h-[398px] my-2 ssm:h-[187px] sm:h-[187px] md:h-[329px]"
+                className="w-[100%] h-[398px] my-2 ssm:h-[187px] sm:h-[287px] md:h-[329px]"
               />
               <div className="mt-[-50px] lg:mt-[-40px] mb-[50px]">
                 <h1 className="font-[900] text-black text-2xl pt-20 ssm:text-white sm:text-white md:text-white lg:text-black xl:text-black xxl:text-black">Присоединяйся к команде Mancho Devs!</h1>
@@ -45,7 +45,7 @@ const Gallery = () => {
                 quality={95}
                 formats={["auto", "webp", "avif"]}
                 alt="images"
-                className="w-[100%] h-[258px] my-2 ssm:h-[187px] sm:h-[187px] md:h-[329px]"
+                className="w-[100%] h-[258px] my-2 ssm:h-[187px] sm:h-[287px] md:h-[329px]"
               />
               <StaticImage
                 src={"../../../images/gallery_img_3.HEIC"}
@@ -53,7 +53,7 @@ const Gallery = () => {
                 quality={95}
                 formats={["auto", "webp", "avif"]}
                 alt="images"
-                className="w-[100%] h-[535px] my-2 ssm:h-[187px] sm:h-[187px] md:h-[329px]"
+                className="w-[100%] h-[535px] my-2 ssm:h-[187px] sm:h-[287px] md:h-[329px]"
 
               />
 
@@ -66,7 +66,7 @@ const Gallery = () => {
                 quality={95}
                 formats={["auto", "webp", "avif"]}
                 alt="images"
-                className="w-[100%] h-[258px] my-2 ssm:h-[187px] sm:h-[187px] md:h-[329px]"
+                className="w-[100%] h-[258px] my-2 ssm:h-[187px] sm:h-[287px] md:h-[329px]"
               />
               <StaticImage
                 src={"../../../images/gallery_img_4.jpg"}
@@ -74,7 +74,7 @@ const Gallery = () => {
                 quality={95}
                 formats={["auto", "webp", "avif"]}
                 alt="images"
-                className="w-[100%] h-[258px] my-2 ssm:h-[187px] sm:h-[187px] md:h-[329px]"
+                className="w-[100%] h-[258px] my-2 ssm:h-[187px] sm:h-[287px] md:h-[329px]"
               />
               <StaticImage
                 src={"../../../images/gallery_img_5.jpg"}
@@ -82,7 +82,7 @@ const Gallery = () => {
                 quality={95}
                 formats={["auto", "webp", "avif"]}
                 alt="images"
-                className="w-[100%] block  h-[258px] my-2 ssm:h-[187px] sm:h-[187px] md:h-[329px] lg:hidden"
+                className="w-[100%] block  h-[258px] my-2 ssm:h-[187px] sm:h-[287px] md:h-[329px] lg:hidden"
               />
 
             </div>
