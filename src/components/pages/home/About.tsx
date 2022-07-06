@@ -7,7 +7,7 @@ const About = (): JSX.Element => {
     <section>
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
-          <div className=" flex font-[700] mb-[20px] text-[#1F1F1F] ssm:text-[40px] sm:text-[39px] md:text-[70px] lg:text-[100px] xl:text-[100px]  xxl:text-[120px]">О компан<div className="bg-[#1F1F1F] h-[5rem] text-white sm:h-[5rem] md:h-[100px] lg:h-[140px] xl:h-[140px] xxl:h-[170px] ">ии</div>
+          <div className="flex pt-[22px] font-[700] mb-[20px] text-[#1F1F1F] ssm:text-[40px] sm:text-[39px] md:text-7xl lg:text-8\ xl:text-8xl  xxl:text-8xl">О компан<div className="bg-[#1F1F1F]  h-[5rem] text-white sm:h-[5rem] md:h-[100px] lg:h-[rem] xl:h-[rem] xxl:h-[9rem] ">ии</div>
           </div>
           <p className="font-[600] text-[33px] ssm:hidden sm:hidden md:hidden lg:block xl:block xxl:block">who a<span className=" bg-[#1F1F1F] text-white py-[3rem]">re we?</span></p>
         </div>

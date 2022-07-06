@@ -15,7 +15,7 @@ const Burgermenu = () => {
       {menu && (
         <div data-testid="menu-elem" className="menu">
           <div className="menu-block">
-            <div className="w-full flex justify-between px-5 mt-10">
+            <div className="w-full  flex justify-between mt-5 px-5">
               <div className="w-[70%] flex justify-start">
                 <StaticImage
                   src={"../../images/black-logo.svg"}
@@ -30,10 +30,10 @@ const Burgermenu = () => {
                                     onClick={() => setMenu(false)} icon={faX}/>
             </div>
             <div className="flex justify-between w-full ">
-              <div className="bg-white">
-                <h1 className="text-9xl h-[70px] font-[900] pl-3">D</h1>
-                <h1 className="text-9xl h-[70px] font-[900] pl-3">E</h1>
-                <h1 className="text-9xl h-[70px] font-[900] pl-3">V</h1>
+              <div className="">
+                <h1 className="text-9xl h-[120px] font-[900] pl-3">D</h1>
+                <h1 className="text-9xl h-[120px] font-[900] pl-3">E</h1>
+                <h1 className="text-9xl h-[120px] font-[900] pl-3">V</h1>
                 <div className="text-9xl w-[170%] mt-3 pl-4 mr-5 h-[140px] font-[900] text-white bg-[#1F1F1F] flex justify-between">S
                   <div className="flex justify-between w-[70%] bg-[#1F1F1F] flex-wrap">
                   <p className="text-xl w-[26%]">aza</p>
@@ -51,12 +51,6 @@ const Burgermenu = () => {
                   <a href="#" className="text-[24px] leading-[40px] text-[#1F1F1F] pb-5 ">about</a>
                   <a href="#" className="text-[24px] leading-[40px] text-[#1F1F1F] pb-5 ">sign in</a>
                   <a href="#" className="text-[24px] leading-[40px] text-[#1F1F1F] pb-5 ">register</a>
-                </div>
-                <div className="flex justify-between font-[700]">
-                  <p>En</p>
-                  <p>Ru</p>
-                  <p>Kg</p>
-                  <p></p>
                 </div>
               </div>
             </div>
