@@ -15,7 +15,6 @@ const SecondPage = () => (
   <>
     <Layout>
       <Seo title={'Mancho Devs'}/>
-      <Header/>
       <Command/>
       <About/>
       <FounderSeo/>

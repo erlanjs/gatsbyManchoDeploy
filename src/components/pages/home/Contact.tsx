@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="">
+    <section id={"Contact"}>
       <div className="bg-[#1F1F1F] flex pt-12 lg:hidden ">
         <div className="container mx-auto py-5">
           <h1 className="flex text-[100px] font-[700] font-sans text-white ssm:text-3xl sm:text-4xl sm:w-[100%] md:text-6xl  lg:w-[70%] lg:text-7xl"><span className="pr-8 sm:hidden md:hidden lg:block xl:block xxl:block">Наши</span>контакты</h1>
@@ -16,18 +16,29 @@ const Contact = () => {
 
         <div className=" mt-6 flex justify-between  flex-wrap ssm:flex ssm:flex-col ssm:justify-start sm:flex sm:flex-col sm:justify-start md:flex md:flex-row md:justify-center lg:flex lg:flex-row lg:justify-between xl:flex xl:flex-row xxl:flex xxl:flex-row xxl:justify-between">
           <div className="pt-16 w-[40%] ssm:w-[80%] ssm:mt-[-70px] sm:w-[80%] sm:mt-[-70px] md:w-[92%] md:mt-[-70px] lg:w-[50%]  xl:w-[45%] xxl:w-[40%] py-5 ">
-            <p className="font-normal text-xl text-black my-5">+996 997 999 222</p>
-            <p className="font-normal text-xl text-black my-5">hello@mancho.dev</p>
-            <p className="font-normal text-xl text-black my-5">Бизнес-центр "MONOLIT", 8 этаж 801 кабинет</p>
-            <p className="font-normal text-xl text-black my-5">ул. Льва Толстого 36к</p>
-            <p className="font-normal text-xl text-black my-5">г. Бишкек, Кыргызстан</p>
+            <div className="flex items-center">
+              <span className="mr-2"><i className="fa-solid fa-phone"/></span>
+              <p className="font-normal text-lg text-black my-5">+996 997 999 222</p>
+            </div>
+
+            <div className="flex items-center">
+              <span className="mr-2"><i className="fa-solid fa-at"/></span>
+              <p className="font-normal text-lg text-black my-5">hello@mancho.dev</p>
+            </div>
+
+              <p className="font-normal text-lg text-black my-5">Бизнес-центр "MONOLIT", 8 этаж 801 кабинет </p>
+
+            <p className="font-normal text-lg text-black my-5">ул. Льва Толстого 36к</p>
+            <p className="font-normal text-lg text-black my-5">г. Бишкек, Кыргызстан</p>
             <div className={"my-5 flex"}>
-              <span className="mr-5">i</span>
-              <span className="mr-5">i</span>
-              <span className="mr-5">i</span>
-              <span className="mr-5">i</span>
-              <span className="mr-5">i</span>
-              <span className="mr-5">i</span>
+              <a href="#"><span className="mr-5 text-2xl"><i className="fa-brands fa-facebook-f"/></span></a>
+              <a href="#"><span className="mr-5 text-2xl"><i className="fa-brands fa-linkedin-in"/></span></a>
+              <a href="#"><span className="mr-5 text-2xl"><i className="fa-brands fa-telegram"/></span></a>
+              <a href="#"><span className="mr-5 text-2xl"><i className="fa-brands fa-twitter"/></span></a>
+              <a href="#"><span className="mr-5 text-2xl"><i className="fa-brands fa-instagram"/></span></a>
+              <a href="#"><span className="mr-5 text-2xl"><i className="fa-brands fa-youtube"/></span></a>
+
+
 
 
             </div>
