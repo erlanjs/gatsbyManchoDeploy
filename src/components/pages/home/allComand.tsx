@@ -55,11 +55,16 @@ const AllCommand = (): JSX.Element => {
                     const img = getImage(image)
                     return (
                       <>
-                        <div key={post.id} className="w-[256px]  mt-7" data-testid="AllCommand-elem">
-
-                          <GatsbyImage image={img} alt={name}/>
-                          <h3 className="font-bold text-xl text-white mt-5 ">{name}</h3>
-                          <h4 className="font-normal text-xs text-white mt-5">{role}</h4>
+                        <div key={post.id} className=" box " data-testid="AllCommand-elem">
+                          <div className="boxIcons opacity-0 absolute z-50 right-0 mt-2">
+                            <span className="text-2xl text-white mr-3 cursor-pointer"><i className="fab fa-instagram"/></span>
+                            <span className="text-2xl mr-3 text-white cursor-pointer"><i className="fab fa-linkedin-in"/></span>
+                          </div>
+                          <div className="imgBox">
+                            <GatsbyImage image={img} alt={name} className="imgBoxImg"/>
+                          </div>
+                          <h3 className="font-bold text-xl text-white ml-1 mt-5 absolute imgBoxTitle">{name}</h3>
+                          <h4 className="font-normal text-xs text-white ml-1 mt-14 absolute imgBoxTitleDesc">{role}</h4>
                         </div>
 
                       </>
