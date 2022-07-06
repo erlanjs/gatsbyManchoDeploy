@@ -155,10 +155,55 @@ a, a:hover {
 }
 
 
-
-@media (max-width: 415px) {
+.title{
+    z-index: 100;
+}
+@media (max-width: 1016px) {
     .title{
-        margin-top: 100px;
+        width: 100%;
+
     }
 }
-
+@media (max-width: 768px) {
+    .title{
+        height: 25%;
+    }
+}
+@media (max-width: 415px) {
+    .title{
+        height:25.2% ;
+    }
+}
+@media (max-width: 412px) {
+    .title{
+        height: 25%;
+    }
+}
+@media (max-width: 393px) {
+    .title{
+        height: 25.7%;
+        padding-right: 100px;
+    }
+}
+@media (max-width: 391px) {
+    .title{
+        height: 25.7%;
+        padding-right: 10px;
+    }
+}
+@media (max-width: 376px) {
+    .title{
+        height: 26%;
+    }
+}
+@media (max-width: 360px) {
+    .title{
+        height: 26.8%;
+        padding-right: 10px;
+    }
+}
+@media (max-width: 300px) {
+    .title{
+        height: 24.8%;
+    }
+}
