@@ -11,6 +11,10 @@ a, a:hover {
     text-decoration: none;
 }
 
+/*.container {*/
+/*    width: 1170px;*/
+/*    margin: 0 auto;*/
+/*}*/
 
 .menu {
     width: 100%;
@@ -134,3 +138,10 @@ a, a:hover {
     }
 }
 
+
+
+/*@media  (max-width: 760px) {*/
+/* .container {*/
+/*     width: 90% ;*/
+/* }*/
+/*}*/

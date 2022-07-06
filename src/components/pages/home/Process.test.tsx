@@ -1,12 +1,12 @@
-import Prosess from "./Prosess"
+import Process from "./Process"
 import React from "react";
 import { fireEvent, render, screen } from "@testing-library/react";
 
 
 
-describe("Prosess", () => {
-  test("Prosess query elements", () => {
-   render(<Prosess/>)
+describe("Process", () => {
+  test("Process query elements", () => {
+   render(<Process/>)
     const title = screen.getByText(/How we are working?/i)
     expect(title).toBeInTheDocument()
   })

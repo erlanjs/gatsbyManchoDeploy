@@ -7,18 +7,17 @@ import AllCommand from "../components/pages/home/allComand";
 import Gallery from "../components/pages/home/Gallery";
 import Contact from "../components/pages/home/Contact";
 import Header from "../components/header";
-import Prosess from "../components/pages/home/Prosess";
+import Process from "../components/pages/home/Process";
 import HeroTwo from "../components/pages/home/hero-two";
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Mancho Devs" />
-    <Header />
     <HeroTwo />
     <About />
     <Products />
     <AllCommand />
-    <Prosess />
+    <Process />
     <Gallery />
     <Contact />
   </Layout>
