@@ -14,7 +14,7 @@ const Contact = () => {
             <h1 className="text-2xl text-black font-[600] py-9 ssm:hidden sm:hidden md:hidden lg:block xl:block xxl:block">Find <span className="bg-black text-white">us</span></h1>
           </div>
 
-        <div className=" mt-6 flex justify-between items-center flex-wrap ssm:flex ssm:flex-col ssm:justify-center sm:flex sm:flex-col sm:justify-center md:flex md:flex-row md:justify-center lg:flex lg:flex-row lg:justify-between xl:flex xl:flex-row xxl:flex xxl:flex-row xxl:justify-between">
+        <div className=" mt-6 flex justify-between  flex-wrap ssm:flex ssm:flex-col ssm:justify-start sm:flex sm:flex-col sm:justify-start md:flex md:flex-row md:justify-center lg:flex lg:flex-row lg:justify-between xl:flex xl:flex-row xxl:flex xxl:flex-row xxl:justify-between">
           <div className="pt-16 w-[40%] ssm:w-[80%] ssm:mt-[-70px] sm:w-[80%] sm:mt-[-70px] md:w-[92%] md:mt-[-70px] lg:w-[50%]  xl:w-[45%] xxl:w-[40%] py-5 ">
             <p className="font-normal text-xl text-black my-5">+996 997 999 222</p>
             <p className="font-normal text-xl text-black my-5">hello@mancho.dev</p>

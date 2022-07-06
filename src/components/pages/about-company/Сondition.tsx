@@ -20,8 +20,8 @@ const Сondition = (): JSX.Element => {
       </div>
       <div className="min-h-[250px]" style={{background: `url(${bg}) no-repeat`}}>
         <div className="container mx-auto">
-          <h1 className="text-8xl	text-black mt-[-40px] font-bold block ssm:text-5xl lg:text-8xl md:text-6xl sm:text-5xl xl:hidden">РАБОТЫ</h1>
-            <div className="">
+          <h1 className="text-8xl	text-black mt-[0px] font-bold block ssm:text-5xl lg:text-8xl md:text-6xl sm:text-5xl xl:hidden">РАБОТЫ</h1>
+            <div className="mt-5 ">
               <div className="flex flex-wrap-reverse justify-between">
                 <div className="block my-5 max-w-[420px] text-end lg:text-start">
                   <StaticImage
@@ -40,7 +40,7 @@ const Сondition = (): JSX.Element => {
                   <p className="text-black font-light text-[15px]">Обеспечение здорового баланса между личной и профессиональной жизнью имеет решающее значение для счастья и успеха на работе. Поэтому мы рады предложить гибкий график, чтобы ты смог вести более продуктивную и сбалансированную жизнь.</p>
                 </div>
               </div>
-              <div className=" lex flex-wrap-reverse justify-between">
+              <div className="flex flex-wrap-reverse justify-between">
                 <div className="block my-5 max-w-[420px] text-end lg:text-start">
                   <StaticImage
                     src={"../../../images/star.svg"}
@@ -49,7 +49,7 @@ const Сondition = (): JSX.Element => {
                   <h4 className="text-black font-semibold text-2xl my-5">Нет бюрократии</h4>
                   <p className="text-black font-light text-[15px]">Мы работаем очень быстро. Никакой бюрократии и максимально адекватное руководство с прозрачным процессом принятия решений.</p>
                 </div>
-                <div className="block my-5 max-w-[420px]">
+                <div className="block my-5 max-w-[420px] ">
                   <StaticImage
                     src={"../../../images/wifi.svg"}
                     alt={""}
