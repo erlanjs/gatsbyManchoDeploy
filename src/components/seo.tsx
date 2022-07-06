@@ -11,8 +11,10 @@ import PropTypes from "prop-types"
 import { Helmet} from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
+
 function Seo({ description, lang, meta, title }:any) {
   const { site } = useStaticQuery(
+
     graphql`
       query {
         site {
@@ -70,6 +72,8 @@ function Seo({ description, lang, meta, title }:any) {
         },
       ].concat(meta)}
     />
+
+
   )
 }
 

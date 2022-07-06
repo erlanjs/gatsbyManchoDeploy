@@ -50,10 +50,10 @@ const HeroTwo = () => {
        <div className='container flex items-start justify-between w-full relative ssm:max-w-full ssm:max-w-full ssm:p-0 sm:max-w-full md:max-w-full sm:p-0 md:p-0 sm:flex  md:flex md:items-start md:justify-start xl:max-w-full lg:max-w-full'>
          <div className='h-[100%] w-[30%] mt-7  z-30 flex flex-col justify-between ssm:mt-[45px] sm:mt-7 md:mt-5'>
            <div className='h-[100vh] w-full flex justify-between ssm:pt-3 sm:pt-3 md:pt-3 lg:pt-3 xl:pt-3 xxl:pt-3 ssm:block sm:block sm:pl-2 md:pl-10 md:block'>
-             <h1 className='text-center w-full h-[20%] devs-d font-[900] text-black ssm:text-[120px] sm:text-[140px]'>D</h1>
-             <h1 className='text-center w-full h-[24%] font-[900] text-black ssm:text-[120px] sm:text-[160px] sm:pt-1'>E</h1>
-             <h1 className='text-center w-full h-[24%] font-[900] text-black ssm:text-[120px] sm:text-[140px]'>V</h1>
-             <h1 className='text-center w-full h-[25%] font-[900] text-[200px] text-white z-10 absolute left-[675px] ssm:text-[120px] ssm:px-2.7 ssm:left-0 ssm:bg-[#1F1F1F] ssm:pr-[0px] ssm:w-[30%] sm:left-0 sm:bg-[#1F1F1F] sm:px-4 sm:text-[140px] sm:m-0  sm:w-[112px] sm:pr-[70px] md:m-0 md:left-0 md:bg-[#1F1F1F] md:px-16 md:pr-[104px] md:w-[9%] lg:w-[9%] lg:pr-[82px] '>S</h1>
+             <h1 className='text-center w-full h-[20%] md:h-[23%] devs-d font-[900] text-black ssm:text-[120px] sm:text-[140px]'>D</h1>
+             <h1 className='text-center w-full h-[24%] md:h-[23%] font-[900] text-black ssm:text-[120px] sm:text-[160px] sm:pt-1'>E</h1>
+             <h1 className='text-center w-full h-[24%] md:h-[23%] font-[900] text-black ssm:text-[120px] sm:text-[140px]'>V</h1>
+             <h1 className='title text text-center w-full h-[25%] md:h-[23%] font-[900] text-[200px] text-white z-10 absolute left-[675px] md:left-[575px] ssm:text-[120px] ssm:px-2.7 ssm:left-0 ssm:bg-[#1F1F1F] ssm:pr-[0px] ssm:w-[30%] sm:left-0 sm:bg-[#1F1F1F] sm:px-4 sm:text-[140px] sm:m-0  sm:w-[112px] sm:pr-[70px] md:m-0 md:left-0 md:bg-[#1F1F1F] md:px-16 md:pr-[90px] md:w-[9%] lg:w-[9%] lg:pr-[82px] '>S</h1>
            </div>
            <div className='w-2/3 ssm:hidden sm:hidden md:hidden'>
              <p>
@@ -63,7 +63,7 @@ const HeroTwo = () => {
            </div>
          </div>
 
-         <div className='bg-green-700  mt-28 relative h-[70vh]'>
+         <div className='mt-28 relative h-[70vh]'>
            <StaticImage
              src={"../../../images/img1.webp"}
              loading="eager"

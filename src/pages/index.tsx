@@ -9,18 +9,22 @@ import Contact from "../components/pages/home/Contact";
 import Header from "../components/header";
 import Process from "../components/pages/home/Process";
 import HeroTwo from "../components/pages/home/hero-two";
+// import "./../../public/index.html";
 
 const IndexPage = () => (
-  <Layout>
-    <Seo title="Mancho Devs" />
-    <HeroTwo />
-    <About />
-    <Products />
-    <AllCommand />
-    <Process />
-    <Gallery />
-    <Contact />
-  </Layout>
+
+    <Layout>
+      <Seo title="Mancho Devs" />
+      <HeroTwo />
+      <About />
+      <Products />
+      <AllCommand />
+      <Process />
+      <Gallery />
+      <Contact />
+    </Layout>
+
+
 );
 
 export default IndexPage;
