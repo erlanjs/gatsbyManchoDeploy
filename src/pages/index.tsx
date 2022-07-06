@@ -14,7 +14,7 @@ import HeroTwo from "../components/pages/home/hero-two";
 const IndexPage = () => (
 
     <Layout>
-      <Seo title="Mancho Devs" description="Mancho Devs (ОсОО «Прораб») - это стартап, основанный в Бишкеке в феврале 2021 года Эсеном Сагыновым, разработчиком одной из крупнейших компаний в мире ..."/>
+      <Seo lang="Ru" title="Mancho Devs" description="Mancho Devs (ОсОО «Прораб») - это стартап, основанный в Бишкеке в феврале 2021 года Эсеном Сагыновым, разработчиком одной из крупнейших компаний в мире ..."/>
       <HeroTwo />
       <About />
       <Products />
