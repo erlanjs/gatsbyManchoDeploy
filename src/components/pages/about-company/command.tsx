@@ -23,7 +23,7 @@ const Command = (): JSX.Element => {
 
             <div className="w-[50%] bg-[#1F1F1F] mt-44 ssm:w-[100%] ssm:mt-10  sm:w-[100%] sm:mt-10 md:w-[100%] md:mt-10 lg:w-[50%] lg:mt-44 xl:w-[50%] xl:mt-44 xxl:w-[50%] xxl:mt-44">
               <StaticImage
-                src={'../../../images/mancho_devs.png'}
+                src={'../../../images/mancho_devs.jpg'}
                 loading="eager"
                 quality={95}
                 formats={["auto", "webp", "avif"]}

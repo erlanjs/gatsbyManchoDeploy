@@ -18,7 +18,7 @@ const Gallery = () => {
           <div className="flex justify-between h-full mt-[-140px] ssm:flex ssm:flex-col sm:flex sm:flex-col md:flex md:flex-col lg:flex lg:flex-row ">
             <div className="px-2.5 w-full">
               <StaticImage
-                src={"../../../images/gallery_img_1.png"}
+                src={"../../../images/gallery_img_1.jpeg"}
                 loading="eager"
                 quality={95}
                 formats={["auto", "webp", "avif"]}
@@ -40,7 +40,7 @@ const Gallery = () => {
 
             <div className="px-2.5 w-full">
               <StaticImage
-                src={"../../../images/gallery_img_2.png"}
+                src={"../../../images/gallery_img_2.jpg"}
                 loading="eager"
                 quality={95}
                 formats={["auto", "webp", "avif"]}
@@ -48,7 +48,7 @@ const Gallery = () => {
                 className="w-[100%] h-[258px] my-2 ssm:h-[187px] sm:h-[187px] md:h-[329px]"
               />
               <StaticImage
-                src={"../../../images/gallery_img_3.png"}
+                src={"../../../images/gallery_img_3.HEIC"}
                 loading="eager"
                 quality={95}
                 formats={["auto", "webp", "avif"]}
@@ -61,7 +61,7 @@ const Gallery = () => {
 
             <div className="px-2.5 w-full">
               <StaticImage
-                src={"../../../images/gallery_img_4.png"}
+                src={"../../../images/gallery_img_44.jpg"}
                 loading="eager"
                 quality={95}
                 formats={["auto", "webp", "avif"]}
@@ -69,21 +69,21 @@ const Gallery = () => {
                 className="w-[100%] h-[258px] my-2 ssm:h-[187px] sm:h-[187px] md:h-[329px]"
               />
               <StaticImage
-                src={"../../../images/gallery_img_5.png"}
+                src={"../../../images/gallery_img_4.jpg"}
                 loading="eager"
                 quality={95}
                 formats={["auto", "webp", "avif"]}
                 alt="images"
                 className="w-[100%] h-[258px] my-2 ssm:h-[187px] sm:h-[187px] md:h-[329px]"
               />
-              {/*<StaticImage*/}
-              {/*  src={"../../../images/gallery_img_6.png"}*/}
-              {/*  loading="eager"*/}
-              {/*  quality={95}*/}
-              {/*  formats={["auto", "webp", "avif"]}*/}
-              {/*  alt="images"*/}
-              {/*  className="w-[100%] block lg:hidden h-[258px] my-2 ssm:h-[187px] sm:h-[187px] md:h-[329px]"*/}
-              {/*/>*/}
+              <StaticImage
+                src={"../../../images/gallery_img_5.jpg"}
+                loading="eager"
+                quality={95}
+                formats={["auto", "webp", "avif"]}
+                alt="images"
+                className="w-[100%] block  h-[258px] my-2 ssm:h-[187px] sm:h-[187px] md:h-[329px] lg:hidden"
+              />
 
             </div>
 

@@ -15,7 +15,7 @@ const About = (): JSX.Element => {
         <div className="flex justify-between ssm:flex ssm:flex-col-reverse sm:flex-col-reverse md:flex-col-reverse lg:flex-col-reverse xl:flex-row xxl:flex-row">
           <div className="bg-[#1F1F1F] w-[50%] flex justify-center ssm:w-full sm:w-full md:w-full lg:w-full lg:py-3 lg:pb-11 lg:mt-16 xl:mt-0 xl:w-[50%] xl:h-[460px] xl:pt-[55px] xxl:w-[50%] xxl:pt-[55px] xxl:ml-1">
             <StaticImage
-              src={'../../../images/about_img.png'}
+              src={'../../../images/about_img.HEIC'}
               loading="eager"
               quality={95}
               formats={["auto", "webp", "avif"]}
@@ -23,7 +23,7 @@ const About = (): JSX.Element => {
               className="w-9/12 ssm:w-full ssm:h-[200px] sm:w-full sm:h-[190px] md:w-full md:h-[380px] lg:w-[90%] lg:mt-[-50px]  lg:h-[440px] xl:mt-0 xl:full xl:h-[360px] xxl:9/12 xxl:h-[360px]"/>
           </div>
           <div className=" flex justify-start w-full xl:justify-center xl:w-[50%] xxl:w-[50%]">
-            <div className="w-[80%]">
+            <div className="w-[100%] xl:w-[80%]">
               <p className="my-12 text-[15px]">
                 <span className="font-[700] text-[22px] pl-2">Mancho Devs</span> (ОсОО «Прораб») - это стартап, основанный в Бишкеке в феврале 2021 года Эсеном Сагыновым,
                 разработчиком одной из крупнейших компаний в мире - Amazon.
