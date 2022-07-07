@@ -5,6 +5,57 @@
 @tailwind utilities;
 
 
+/*Hover*/
+.box{
+    max-width: 256px;
+    height: 350px;
+    margin-top: 48px;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+}
+
+.box .imgBox{
+    position: relative;
+    overflow: hidden;
+}
+
+.box .boxIcons{
+    transition: 0.4s;
+}
+
+.box:hover .boxIcons {
+    opacity: 1;
+}
+
+
+.box .imgBox .imgBoxImg{
+    max-width: 100% ;
+    height: 300px;
+    transition: transform 0.4s;
+}
+
+.box:hover .imgBox .imgBoxImg{
+    transform: scale(1.1);
+}
+
+.box:hover .imgBoxTitle{
+    margin-top: -60px;
+    z-index: 99;
+}
+
+.box .imgBoxTitleDesc, .imgBoxTitle {
+    transition:  0.4s;
+}
+
+.box:hover .imgBoxTitleDesc {
+    z-index: 99;
+    margin-top: -30px;
+}
+/*Hover*/
+
+
+
 body,html {
     scroll-behavior:smooth ;
 }
@@ -155,55 +206,9 @@ a, a:hover {
 }
 
 
-.title{
-    z-index: 100;
-}
-@media (max-width: 1016px) {
-    .title{
-        width: 100%;
 
-    }
-}
-@media (max-width: 768px) {
-    .title{
-        height: 25%;
-    }
-}
 @media (max-width: 415px) {
     .title{
-        height:25.2% ;
-    }
-}
-@media (max-width: 412px) {
-    .title{
-        height: 25%;
-    }
-}
-@media (max-width: 393px) {
-    .title{
-        height: 25.7%;
-        padding-right: 100px;
-    }
-}
-@media (max-width: 391px) {
-    .title{
-        height: 25.7%;
-        padding-right: 10px;
-    }
-}
-@media (max-width: 376px) {
-    .title{
-        height: 26%;
-    }
-}
-@media (max-width: 360px) {
-    .title{
-        height: 26.8%;
-        padding-right: 10px;
-    }
-}
-@media (max-width: 300px) {
-    .title{
-        height: 24.8%;
+        margin-top: 100px;
     }
 }

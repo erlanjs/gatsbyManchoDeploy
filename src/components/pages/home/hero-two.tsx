@@ -17,12 +17,12 @@ const HeroTwo = () => {
                  <h1 className='font-[900] text-[240px] text-white absolute z-10 left-[51%] top-[144px] ssm:text-[160px] sm:text-[160px]  md:text-[170px] lg:text-[180px]  xl:text-[200px]  xxl:text-[240px]'>S</h1>
                  <h2 className='absolute z-10 left-[48.7%] top-[435px] lg:top-[500px] xl:top-[435px] xxl:top-[470px] text-xl text-white ssm:hidden sm:hidden md:hidden lg:hidden xl:block xxl:block'><span className='text-black pr-1'>we</span> are creative</h2>
                </div>
-               <div className='w-[80%] ssm:hidden  ssm:hidden sm:hidden md:hidden lg:hidden xl:block xxl:block'>
-                 <p className="w-full xl:text-[16px] ">
+               <div className='w-[70%] ssm:hidden  ssm:hidden sm:hidden md:hidden lg:hidden xl:block xxl:block'>
+                 <p>
                    Наша миссия — оптимизировать процессы, используя технологии, во благо людей.
                  </p>
                  <Link to={"/join-us"}>
-                   <button className='bg-black mt-5 rounded p-4 text-white '>Присоединяйся к нам!</button>
+                   <button className='bg-black mt-5 rounded p-4 text-white'>Присоединяйся к нам!</button>
                  </Link>
                </div>
              </div>
@@ -56,7 +56,7 @@ const HeroTwo = () => {
              <h1 className='text-center w-full h-[20%] md:h-[23%] devs-d font-[900] text-black ssm:text-[120px] sm:text-[140px]'>D</h1>
              <h1 className='text-center w-full h-[24%] md:h-[23%] font-[900] text-black ssm:text-[120px] sm:text-[160px] sm:pt-1'>E</h1>
              <h1 className='text-center w-full h-[24%] md:h-[23%] font-[900] text-black ssm:text-[120px] sm:text-[140px]'>V</h1>
-             <h1 className='title text text-center w-full h-[25%] md:h-[23%] font-[900] text-[200px] text-white z-10 absolute left-[675px] md:left-[575px] ssm:text-[120px] ssm:px-2.7 ssm:left-0 ssm:bg-[#1F1F1F] ssm:pr-[0px] ssm:w-[30%] sm:left-0 sm:bg-[#1F1F1F] sm:px-4 sm:text-[140px] sm:m-0  sm:w-[112px] sm:pr-[70px] md:m-0 md:left-0 md:bg-[#1F1F1F] md:px-16 md:pr-[90px] md:w-[9%] lg:w-[25%] lg:pr-[15px] '>S</h1>
+             <h1 className='title text text-center w-full h-[25%] md:h-[23%] font-[900] text-[200px] text-white z-10 absolute left-[675px] md:left-[575px] ssm:text-[120px] ssm:px-2.7 ssm:left-0 ssm:bg-[#1F1F1F] ssm:pr-[0px] ssm:w-[30%] sm:left-0 sm:bg-[#1F1F1F] sm:px-4 sm:text-[140px] sm:m-0  sm:w-[112px] sm:pr-[70px] md:m-0 md:left-0 md:bg-[#1F1F1F] md:px-16 md:pr-[90px] md:w-[9%] lg:w-[9%] lg:pr-[82px] '>S</h1>
            </div>
            <div className='w-2/3 ssm:hidden sm:hidden md:hidden'>
              <p>
