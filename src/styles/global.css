@@ -5,57 +5,6 @@
 @tailwind utilities;
 
 
-/*Hover*/
-.box{
-    max-width: 256px;
-    height: 350px;
-    margin-top: 48px;
-    box-sizing: border-box;
-    display: inline-block;
-    position: relative;
-}
-
-.box .imgBox{
-    position: relative;
-    overflow: hidden;
-}
-
-.box .boxIcons{
-    transition: 0.4s;
-}
-
-.box:hover .boxIcons {
-    opacity: 1;
-}
-
-
-.box .imgBox .imgBoxImg{
-    max-width: 100% ;
-    height: 300px;
-    transition: transform 0.4s;
-}
-
-.box:hover .imgBox .imgBoxImg{
-    transform: scale(1.1);
-}
-
-.box:hover .imgBoxTitle{
-    margin-top: -60px;
-    z-index: 99;
-}
-
-.box .imgBoxTitleDesc, .imgBoxTitle {
-    transition:  0.4s;
-}
-
-.box:hover .imgBoxTitleDesc {
-    z-index: 99;
-    margin-top: -30px;
-}
-/*Hover*/
-
-
-
 body,html {
     scroll-behavior:smooth ;
 }

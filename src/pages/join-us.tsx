@@ -14,7 +14,7 @@ import Contact from "../components/pages/home/Contact";
 const SecondPage = () => (
   <>
     <Layout>
-      {/*<Seo title={'Mancho Devs'}/>*/}
+      <Seo title={'Mancho Devs'}/>
       <Command/>
       <About/>
       <FounderSeo/>

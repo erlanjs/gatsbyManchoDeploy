@@ -27,8 +27,8 @@ function Seo({ description, lang, meta, title }:any) {
       }
     `
   )
-  console.log("site ==>",site);
-  const metaDescription = description || "Mancho Devs (ОсОО «Прораб») - это стартап, основанный в Бишкеке в феврале 2021 года Эсеном Сагыновым, разработчиком одной из крупнейших компаний в мире ..."
+
+  const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
 
   return (

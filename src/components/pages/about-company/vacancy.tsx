@@ -9,7 +9,7 @@ const Vacancy = () => {
       <div className="container mx-auto">
         <div className="flex justify-between bg-white items-center ssm:hidden sm:hidden  md:hidden lg:block xl:block xxl:block">
           <div className="flex justify-between items-center leading-0 hidden lg:flex">
-            <span className="text-[105px] w-[90%]  text-black pb-[0px] font-[700] lg:w-[90%] lg:text-[90px] lg:pb-[1px] xl:text-[95px] xl:w-[90%] xl:pb-[1px] xxl:text-[100px] xxl:pb-[0.5px]">ВАКАН<span className="bg-[#1F1F1F] pr-[42%] lg:pr-[33%] xl:pr-[30%]  xxl:pr-[42%] text-white pt-[8px] pb-[205px]">СИИ</span></span>
+            <span className="text-[105px] w-[90%]  text-black pb-[0px] font-[700] lg:w-[90%] lg:text-[90px] lg:pb-[1px] xl:text-[95px] xl:w-[90%] xl:pb-[1px] xxl:text-[100px] xxl:pb-[0.5px]">ВАКАН<span className="bg-[#1F1F1F] pr-[42%] lg:pr-[33%] xl:pr-[30%]  xxl:pr-[42%] text-white pt-[8px] pb-[11px]">СИИ</span></span>
             <span className="font-[600] text-[18px] ">Join us</span>
           </div>
         </div>
@@ -23,7 +23,7 @@ const Vacancy = () => {
 
         <div className="container mx-auto">
           <div className="flex flex-col bg-[#1F1F1F] mt-12 pt-5 items-center ssm:block sm:block md:block lg:hidden xl:hidden xxl:hidden">
-            <div className="flex  w-full text-white font-[700] text-[50px]  ssm:text-[40px] sm:text-[40px] md:text-[45px]">
+            <div className="flex  w-full text-white font-[700] text-[50px]  ssm:text-[30px] sm:text-[40px] md:text-[45px]">
               ВАКА<div className="">НСИИ</div>
             </div>
           </div>
@@ -36,7 +36,7 @@ const Vacancy = () => {
               ))
             }
             <div className="my-5">
-              <h4 className="font-normal text-[18px]	text-white md:text-xl">Нет подходящей вакансии? Прояви инициативу и отправляй резюме нам на почту: <a href="mailto:hello@mancho.dev?subject=Feedback&body=Message" className="text-[#086AD9] pl-3 text-md	md:text-xl">hire@mancho.dev</a></h4>
+              <h4 className="font-normal text-xl	text-white">Нет подходящей вакансии? Прояви инициативу и отправляй резюме нам на почту: <a href="#" className="text-[#086AD9] pl-5 text-xl	">hire@mancho.dev</a></h4>
             </div>
           </div>
 
