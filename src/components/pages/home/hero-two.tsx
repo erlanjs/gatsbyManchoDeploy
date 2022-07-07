@@ -56,7 +56,7 @@ const HeroTwo = () => {
               <h1 className='text-center w-full h-[20%] md:h-[23%] devs-d font-[900] text-black ssm:text-[120px] sm:text-[140px]'>D</h1>
               <h1 className='text-center w-full h-[24%] md:h-[23%] font-[900] text-black ssm:text-[120px] sm:text-[160px] sm:pt-1'>E</h1>
               <h1 className='text-center w-full h-[24%] md:h-[23%] font-[900] text-black ssm:text-[120px] sm:text-[140px]'>V</h1>
-              <h1 className='title text text-center w-full h-[25%] md:h-[23%] font-[900] text-[200px] text-white z-10 absolute left-[675px] md:left-[575px] ssm:text-[120px] ssm:px-2.7 ssm:left-0 ssm:bg-[#1F1F1F] ssm:pr-[0px] ssm:w-[30%] sm:left-0 sm:bg-[#1F1F1F] sm:px-4 sm:text-[140px] sm:m-0  sm:w-[112px] sm:pr-[70px] md:m-0 md:left-0 md:bg-[#1F1F1F] md:px-16 md:pr-[90px] md:w-[9%] lg:w-[25%] lg:pr-[15px] '>S</h1>
+              <h1 className='title text text-center w-full h-[25%] md:h-[23%] font-[900] text-[200px] text-white z-10 absolute left-[675px] md:left-[575px] ssm:text-[120px] ssm:px-2.7 ssm:left-0 ssm:bg-[#1F1F1F] ssm:pr-[0px] ssm:w-[30%] sm:left-0 sm:bg-[#1F1F1F] sm:px-4 sm:text-[140px] sm:m-0  sm:w-[112px] sm:pr-[70px] md:m-0 md:left-[0px] md:bg-[#1F1F1F] md:px-16 md:pr-[90px] md:w-[9%] lg:w-[25%] lg:pr-[15px] '>S</h1>
             </div>
             <div className='w-2/3 ssm:hidden sm:hidden md:hidden'>
               <p>
