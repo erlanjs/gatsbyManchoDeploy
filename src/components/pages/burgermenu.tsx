@@ -53,6 +53,7 @@ const Burgermenu = () => {
                   <Link onClick={() => setMenu(false)} to={"#Products"} className="text-[20px] leading-[40px] text-[#1F1F1F] pb-5 ">Продукты</Link>
                   <Link onClick={() => setMenu(false)} to={"#AllCommand"} className="text-[20px] leading-[40px] text-[#1F1F1F] pb-5 ">Наша команда</Link>
                   <Link onClick={() => setMenu(false)} to={"#Contact"} className="text-[20px] leading-[40px] text-[#1F1F1F] pb-5 ">Контакты</Link>
+                  <Link onClick={() => setMenu(false)} to={"/gallery"} className="text-[20px] leading-[40px] text-[#1F1F1F] pb-5 ">Галерея</Link>
                 </div>
 
                 <div className="flex">

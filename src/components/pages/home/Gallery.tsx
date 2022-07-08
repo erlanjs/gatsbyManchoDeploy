@@ -32,6 +32,9 @@ const Gallery = () => {
                   <Link to={'/join-us'}>
                     <button className="bg-black px-8 py-3 rounded text-white font-[700] text-[12px] ssm:bg-white ssm:text-black sm:bg-white sm:text-black md:bg-white md:text-black lg:bg-black lg:text-white xl:bg-black xl:text-white xxl:bg-black xxl:bg-black">Присоединяйся к нам!</button>
                   </Link>
+                  <Link to={'/gallery'}>
+                    <button className="bg-none px-8 py-3 border-2 border-black rounded text-black font-[700] text-[12px] mt-5">Больше фотографий из жизни компании</button>
+                  </Link>
                   <span></span>
                 </div>
               </div>
@@ -87,6 +90,11 @@ const Gallery = () => {
 
             </div>
 
+          </div>
+          <div className="text-center block lg:hidden">
+            <Link to={"/gallery"}>
+              <button className="py-3 px-5 bg-none border-2 border-white text-white mt-8 font-semibold ">Больше фотографий из жизни компании</button>
+            </Link>
           </div>
         </div>
       </div>
