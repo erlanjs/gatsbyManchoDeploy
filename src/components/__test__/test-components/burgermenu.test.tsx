@@ -1,5 +1,5 @@
 import * as ReactDOM from "react-dom";
-import Burgermenu from "./burgermenu";
+import Burgermenu from "../../burgermenu";
 import React from "react";
 import { fireEvent, render, screen } from "@testing-library/react";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import Сondition from "./Сondition";
+import Сondition from "../../pages/about-company/Сondition";
 
 describe("Сondition components test", () => {
   test("Title query" , () => {

@@ -1,4 +1,4 @@
-import Process from "./Process"
+import Process from "../../pages/home/process"
 import React from "react";
 import { fireEvent, render, screen } from "@testing-library/react";
 

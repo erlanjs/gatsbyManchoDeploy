@@ -1,4 +1,4 @@
-import Vacancy from "./vacancy";
+import Vacancy from "../../pages/about-company/vacancy";
 import React from "react";
 import { fireEvent, render, screen } from "@testing-library/react";
 

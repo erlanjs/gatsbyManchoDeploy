@@ -1,7 +1,7 @@
-import Header from "./header";
+import Header from "../../header";
 import * as ReactDOM from "react-dom";
 import React from "react";
-import Hero from "./pages/home/Hero";
+import Hero from "../../pages/home/hero";
 import { render, screen } from "@testing-library/react";
 
 

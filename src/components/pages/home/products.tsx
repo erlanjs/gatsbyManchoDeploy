@@ -1,12 +1,9 @@
 import React from 'react';
 import { media } from "../../media";
-
 // @ts-ignore
 import bg from "../../../images/products-bg.png"
 
 const Products = (): JSX.Element => {
-
-
     return (
       <section id="Products">
         <div className="container mx-auto mt-[100px]">

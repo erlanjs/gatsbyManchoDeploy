@@ -1,9 +1,9 @@
 import * as React from "react";
-import Burgermenu from "./pages/burgermenu";
+import Burgermenu from "./burgermenu";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
-import Contact from "./pages/home/Contact";
-import AllCommand from "./pages/home/allComand";
+import Contact from "./pages/home/contact";
+import AllCommand from "./pages/home/all-comand";
 
 
 const Header = () => (

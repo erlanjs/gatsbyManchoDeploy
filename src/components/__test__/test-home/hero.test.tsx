@@ -1,4 +1,4 @@
-import Hero from "./Hero";
+import Hero from "../../pages/home/hero";
 import * as ReactDOM from "react-dom";
 import React from "react";
 

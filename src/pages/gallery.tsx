@@ -45,10 +45,7 @@ const Gallery = () => {
                         </div>
                       </div>
                     </Link>
-
-
                   </>
-
                 )
               })
             }

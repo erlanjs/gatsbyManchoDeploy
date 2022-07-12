@@ -1,4 +1,4 @@
-import About from "./About";
+import About from "../../pages/home/about";
 import * as ReactDOM from "react-dom";
 import React from "react";
 import { render, screen } from "@testing-library/react";

@@ -1,5 +1,5 @@
 import React from "react";
-import Products from "./Products";
+import Products from "../../pages/home/products";
 import { render , screen} from "@testing-library/react";
 
 

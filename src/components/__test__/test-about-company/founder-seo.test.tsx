@@ -1,4 +1,4 @@
-import FounderSeo from "./founder-seo";
+import FounderSeo from "../../pages/about-company/founder-seo";
 import { render, screen } from "@testing-library/react";
 import React from "react";
 

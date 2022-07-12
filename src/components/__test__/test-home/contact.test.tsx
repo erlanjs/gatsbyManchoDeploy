@@ -1,6 +1,6 @@
 import React from "react";
 import { fireEvent, render, screen } from "@testing-library/react";
-import Contact from "./Contact";
+import Contact from "../../pages/home/contact";
 
 
 describe("Contact", () => {
