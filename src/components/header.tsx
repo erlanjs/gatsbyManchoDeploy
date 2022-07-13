@@ -33,7 +33,7 @@ const Header = () => (
           <Link to={"#Products"} className="text-white no-underline hover:border-white hover:border-b-2">Продукты</Link>
           <Link to={"#AllCommand"} className="text-white no-underline hover:border-white hover:border-b-2">Наша команда</Link>
           <Link to={"#Contact"} className="text-white no-underline hover:border-white hover:border-b-2">Контакты</Link>
-          <Link to={"/gallery"} className="text-white no-underline hover:border-white hover:border-b-2">Галерея</Link>
+          <Link to={"/gallery"} className="text-white no-underline hover:border-white hover:border-b-2">Gallery</Link>
         </div>
       </div>
     </div>
