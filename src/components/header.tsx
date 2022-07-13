@@ -1,9 +1,9 @@
 import * as React from "react";
-import Burgermenu from "./burgermenu";
+import Burgermenu from "./pages/burgermenu";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
-import Contact from "./pages/home/contact";
-import AllCommand from "./pages/home/all-comand";
+import Contact from "./pages/home/Contact";
+import AllCommand from "./pages/home/allComand";
 
 
 const Header = () => (
@@ -33,7 +33,7 @@ const Header = () => (
           <Link to={"#Products"} className="text-white no-underline hover:border-white hover:border-b-2">Продукты</Link>
           <Link to={"#AllCommand"} className="text-white no-underline hover:border-white hover:border-b-2">Наша команда</Link>
           <Link to={"#Contact"} className="text-white no-underline hover:border-white hover:border-b-2">Контакты</Link>
-          <Link to={"/gallery"} className="text-white no-underline hover:border-white hover:border-b-2">Gallery</Link>
+          <Link to={"/gallery"} className="text-white no-underline hover:border-white hover:border-b-2">Галерея</Link>
         </div>
       </div>
     </div>
