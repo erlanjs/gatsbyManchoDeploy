@@ -300,7 +300,7 @@ a, a:hover {
 
 @media (max-width: 600px) {
     .gallery{
-        column-count: 3 !important;
+        column-count: 1 !important;
     }
 
 }
