@@ -284,6 +284,13 @@ a, a:hover {
     filter: opacity(0.8);
 }
 
+@media (max-width: 1991px) {
+    .gallery{
+        column-count: 3;
+    }
+
+}
+
 @media (max-width: 991px) {
     .gallery{
         column-count: 2;
@@ -294,9 +301,6 @@ a, a:hover {
 @media (max-width: 600px) {
     .gallery{
         column-count: 3 !important;
-        -webkit-column-width: fill-available !important;
-        -moz-column-width: fill-available !important;
-        column-width: fill-available !important;
     }
 
 }
