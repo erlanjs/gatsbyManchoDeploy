@@ -1,13 +1,13 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
-import About from "../components/pages/home/About";
-import Products from "../components/pages/home/Products";
-import AllCommand from "../components/pages/home/allComand";
-import Gallery from "../components/pages/home/Gallery";
-import Contact from "../components/pages/home/Contact";
+import About from "../components/pages/home/about";
+import Products from "../components/pages/home/products";
+import AllCommand from "../components/pages/home/all-comand";
+import Gallery from "../components/pages/home/gallery";
+import Contact from "../components/pages/home/contact";
 import Header from "../components/header";
-import Process from "../components/pages/home/Process";
+import Process from "../components/pages/home/process";
 import HeroTwo from "../components/pages/home/hero-two";
 // import "./../../public/index.html";
 

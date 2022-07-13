@@ -1,6 +1,6 @@
 import React from "react";
 import Accordion from "../../accordion/accordion";
-import { accordionBD } from "../../accordion/db";
+import { accordionBD } from "../../accordion/accordion-db";
 
 
 const Vacancy = () => {
