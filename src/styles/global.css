@@ -266,7 +266,7 @@ a, a:hover {
     }
 }
 .gallery{
-    column-count: 3;
+    column-count: 1;
     -webkit-column-width: fill-available;
     -moz-column-width: fill-available;
     column-width: fill-available;
@@ -293,7 +293,7 @@ a, a:hover {
 
 @media (max-width: 600px) {
     .gallery{
-        column-count: 1 !important;
+        column-count: 3 !important;
         -webkit-column-width: fill-available !important;
         -moz-column-width: fill-available !important;
         column-width: fill-available !important;
