@@ -1,15 +1,15 @@
-import About from "../../pages/home/about";
-import * as ReactDOM from "react-dom";
-import React from "react";
-import { render, screen } from "@testing-library/react";
+import { render, screen } from "@testing-library/react"
+import React from "react"
+import * as ReactDOM from "react-dom"
 
+import About from "../../components/pages/home/about"
 
 describe("Hero components test", () => {
   let container: HTMLDivElement
   beforeEach(() => {
-    container = document.createElement('div')
+    container = document.createElement("div")
     document.body.appendChild(container)
-    ReactDOM.render(<About/>, container)
+    ReactDOM.render(<About />, container)
   })
 
   afterEach(() => {
@@ -21,8 +21,8 @@ describe("Hero components test", () => {
     const span = container.querySelectorAll("span")
     expect(span).toHaveLength(2)
   })
-  it("query title " , () => {
-    render(<About/>)
+  it("query title ", () => {
+    render(<About />)
     const title = screen.getAllByText(/Mancho Devs/i)
     expect(title.length).toBe(4)
   })
