@@ -9,13 +9,15 @@ import Contact from "../components/pages/home/contact";
 import Header from "../components/header";
 import Process from "../components/pages/home/process";
 import HeroTwo from "../components/pages/home/hero-two";
+import Hero from "../components/pages/home/hero";
 // import "./../../public/index.html";
 
 const IndexPage = () => (
 
     <Layout>
       <Seo lang="Ru" title="Mancho Devs" description="Mancho Devs (ОсОО «Прораб») - это стартап, основанный в Бишкеке в феврале 2021 года Эсеном Сагыновым, разработчиком одной из крупнейших компаний в мире ..."/>
-      <HeroTwo />
+      {/*<HeroTwo />*/}
+      <Hero/>
       <About />
       <Products />
       <AllCommand />

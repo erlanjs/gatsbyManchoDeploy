@@ -4,11 +4,11 @@ import { StaticImage } from "gatsby-plugin-image";
 const About = (): JSX.Element => {
 
   return (
-    <section id="About">
+    <section id="About" className="pt-44 xl:pt-0">
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           <div className=" flex font-[700] mb-[20px] text-[#1F1F1F] ssm:text-[40px] sm:text-[39px] md:text-[70px] lg:text-[100px] xl:text-[92px]  xxl:text-[120px]">О компан<div className="bg-[#1F1F1F] h-[5rem] text-white sm:h-[4rem] md:h-[110px] lg:h-[140px] xl:h-[150px] xxl:h-[170px] ">ии</div></div>
-          <p className="font-[600] text-[33px] hidden lg:block lg:mt-[-18px]">who a<span className=" bg-[#1F1F1F] text-white py-[3rem]">re we?</span></p>
+          <p className="font-[600] text-[33px] hidden xl:block lg:mt-[-18px]">who a<span className=" bg-[#1F1F1F] text-white py-[3rem]">re we?</span></p>
         </div>
       </div>
       <div className="container mx-auto xl:mt-[-21px] xxl:mt-[-29px]  ">
