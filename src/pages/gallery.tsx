@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import axios from "axios"
 import { Title } from "../components/UI-components";
 import Layout from "../components/layout";
-import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
 import { media } from "../components/media";
 import { Link } from "gatsby";
 
@@ -17,7 +16,6 @@ const Gallery = () => {
     setDataAlbums(data.photosets);
     setActive(true);
   }
-
   const {photoset}:any = dataAlbums
 
   return (
@@ -40,7 +38,6 @@ const Gallery = () => {
                         <div style={{background: `url(${el.primary_photo_extras?.url_l})  no-repeat center/cover`}} className="w-[256px] h-[280px]">
                           <div className="w-full h-full flex  items-end " style={{background: "linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.92))"}}>
                             <Title tag={"h4"} size="16px" color="white" className="mb-3 mx-1">{el.title._content}</Title>
-
                           </div>
                         </div>
                       </div>

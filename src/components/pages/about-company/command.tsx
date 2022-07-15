@@ -5,7 +5,7 @@ import { Link } from "gatsby";
 const Command = (): JSX.Element => {
   return (
     <div className="bg-[#FFFFFF] pb-[240px] ssm:mb-[260px] sm:mb-[260px] md:mb-[440px] lg:mb-[140px] xl:mb-[170px] xxl:mb-[260px]">
-      <div className="bg-[#1F1F1F] w-full h-[180px] ssm:h-[220px] sm:h-[220px] md:h-[200px] lg:h-[280px]  xl:h-[280px] xxl:h-[280px]">
+      <div className="bg-[#1F1F1F] w-full h-[180px] ssm:h-[220px] sm:h-[220px] md:h-[220px] lg:h-[280px]  xl:h-[280px] xxl:h-[280px]">
         <div className="container mx-auto">
           <div className="flex justify-between ssm:flex ssm:flex-col sm:flex sm:flex-col md:flex-col lg:flex-row xl:flex-row xxl:flex-row">
             <div className=" w-[100%] mt-[60px] block  lg:hidden xl:hidden xxl:hidden">

@@ -65,7 +65,6 @@ const HeroTwo = () => {
               <button className='bg-black p-4 text-white'>Присоединяйся к нам!</button>
             </div>
           </div>
-
           <div className='mt-28 relative h-[70vh]'>
             <StaticImage
               src={"../../../images/img1.webp"}
