@@ -163,17 +163,44 @@ a, a:hover {
     transition: 2s;
     position: relative;
     animation: anti;
-    animation-duration: 3s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
 
+}
+
+.panel-close{
+    padding: 0 18px;
+    height: 0;
+    display: block;
+    overflow: hidden;
+    transition: 2s;
+    position: relative;
+    animation: anti-close;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes anti-close {
+    0% {
+        height: 1000px;
+    }
+    99% {
+        height: 1px;
+    }
+    100% {
+        height: 1px;
+    }
 }
 
 @keyframes anti {
     0% {
         height: 0;
     }
+    99% {
+        height: 1000px;
+    }
     100% {
-        height: 1200px;
+        height: 100%;
     }
 }
 

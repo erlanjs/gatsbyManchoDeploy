@@ -9,7 +9,7 @@ const Hero = () => {
       <section className="bg-white min-h-[100vh]">
         <div className="bg-[#1F1F1F] ssm:h-[300px] sm:h-[300px] md:h-[350px] lg:h-[350px] xl:h-[300px] xl:h-[300px]">
           <div className="lg:container xl:container xxl:container mx-auto relative ">
-            <div className="flex justify-between pt-44">
+            <div className="flex justify-between pt-44" >
               <div
                 className="w-full z-10 ssm:h-[100vh] ssm::mt-[-70px] sm:mt-[-70px] sm:h-[100vh] md:mt-[-70px] md:h-[100vh] lg:mt-[-70px] lg:h-[100vh] xl:mt-[-70px] xxl:mt-[0px]">
                 <h1

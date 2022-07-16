@@ -10,7 +10,7 @@ type Props = RouteComponentProps<{
 }>
 
 export const RandomPerson: FC<Props> = ({ results = 1 }) => {
-  const [photos, setPhotos] = useState({})
+  const [photos, setPhotos] = useState(false)
 
   useEffect(() => {
     getData()
@@ -30,19 +30,17 @@ const getImg = (imgSrc:string) => {
   const  {photo, title, count_photos_all, primary_photo_extras}: any = photos
   return (
     <Layout>
-      <div className={model ? "model open": "model"}>
-        <img src={tempimgSrc} alt="" />
-        <span onClick={() => setModel(false)}><i className="fa-solid fa-xmark"/></span>
-      </div>
       <section className="bg-[#1F1F1F]">
+      {
+        photos ?
           <div className="pt-[100px] ">
             <div className="container mx-auto">
               <div style={{background: `url(${photo?.length > 0 && photo[Math.floor(Math.random() * photo.length)]?.url_c})  no-repeat center/cover`}} className="w-[100%] text-center h-[900px] my-5">
                 <div style={{background: `linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.92))`}} className="w-full h-full flex justify-center items-center">
-                 <div className="block">
-                   <Title tag={"h1"} color={"white"} size={media(30,50)}>{title}</Title>
-                   <Title tag={"h4"} color={"white"} className="mt-5">{photo?.length} photos</Title>
-                 </div>
+                  <div className="block">
+                    <Title tag={"h1"} color={"white"} size={media(30,50)}>{title}</Title>
+                    <Title tag={"h4"} color={"white"} className="mt-5">{photo?.length} photos</Title>
+                  </div>
                 </div>
               </div>
               <div className=" gallery">
@@ -50,9 +48,9 @@ const getImg = (imgSrc:string) => {
                   photo?.map((el:any) => {
                     return(
                       <>
-                      <div className="pics my-4" onClick={() => getImg(el.url_c)}>
-                        <img src={el.url_c} alt="" style={{width: "100%"}}/>
-                      </div>
+                        <div className="pics my-4" onClick={() => getImg(el.url_c)}>
+                          <img src={el.url_c} alt="" style={{width: "100%"}}/>
+                        </div>
                       </>
                     )
                   })
@@ -62,7 +60,47 @@ const getImg = (imgSrc:string) => {
 
             {/*<img src={} alt="" className="w-full h-[900px]" />*/}
           </div>
+
+          :  <div className="min-h-screen flex justify-center items-center">
+            <svg width={media(54, 88)} height={media(54, 88)} viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient x1="8.042%" y1="0%" x2="65.682%" y2="23.865%" id="a">
+                  <stop stopColor="#fff" stopOpacity="0" offset="0%"/>
+                  <stop stopColor="#fff" stopOpacity=".631" offset="63.146%"/>
+                  <stop stopColor="#fff" offset="100%"/>
+                </linearGradient>
+              </defs>
+              <g fill="none" fillRule="evenodd">
+                <g transform="translate(1 1)">
+                  <path d="M36 18c0-9.94-8.06-18-18-18" id="Oval-2" stroke="url(#a)" strokeWidth="2">
+                    <animateTransform
+                      attributeName="transform"
+                      type="rotate"
+                      from="0 18 18"
+                      to="360 18 18"
+                      dur="0.9s"
+                      repeatCount="indefinite" />
+                  </path>
+                  <circle fill="#fff" cx="36" cy="18" r="1">
+                    <animateTransform
+                      attributeName="transform"
+                      type="rotate"
+                      from="0 18 18"
+                      to="360 18 18"
+                      dur="0.9s"
+                      repeatCount="indefinite" />
+                  </circle>
+                </g>
+              </g>
+            </svg>
+          </div>
+      }
       </section>
+      <div className={model ? "model open": "model"}>
+        <img src={tempimgSrc} alt="" />
+        <span onClick={() => setModel(false)}><i className="fa-solid fa-xmark"/></span>
+      </div>
+
     </Layout>
   )
 }

@@ -9,7 +9,7 @@ const Accordion = ({title, info}: {title:string, info: string[]}): JSX.Element =
   return (
     <>
       <div data-testid="active-btn"  className={`accordion font-semibold text-[14px] md:text-2xl flex justify-between mb-10  ${active && "active" ? "border-b-4 border-emerald-800" : "border-b-4 border-white"}`} onClick={onClick}>{title} <span className={active ? "arrow" : "arrowClose"}>{">"}</span></div>
-      {active && <div data-testid="active-elem" className={ "panel"}>
+      { <div data-testid="active-elem" className={active ? "panel" : "panel-close"}>
         <div className="border-b-4 border-white">
           {
             info.map((el,idx) => (

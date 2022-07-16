@@ -12,7 +12,19 @@ import HeroTwo from "../components/pages/home/hero-two";
 import Hero from "../components/pages/home/hero";
 // import "./../../public/index.html";
 
-const IndexPage = () => (
+// @ts-ignore
+import AOS from "aos";
+import { useEffect } from "react";
+
+const IndexPage = () => {
+
+  // useEffect(() => {
+  //   AOS.init();
+  //   AOS.refresh();
+  // }, []);
+
+
+  return(
 
     <Layout>
       <Seo lang="Ru" title="Mancho Devs" description="Mancho Devs (ОсОО «Прораб») - это стартап, основанный в Бишкеке в феврале 2021 года Эсеном Сагыновым, разработчиком одной из крупнейших компаний в мире ..."/>
@@ -27,6 +39,6 @@ const IndexPage = () => (
     </Layout>
 
 
-);
+)};
 
 export default IndexPage;
