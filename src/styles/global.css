@@ -1,78 +1,77 @@
 @import "./icons.css";
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import "../components/UI-components/Htag/Title.modile.css";
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-body{
-    font-family: 'Montserrat', sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
 /*Hover*/
-.box{
-    max-width: 256px;
-    height: 350px;
-    margin-top: 48px;
-    box-sizing: border-box;
-    display: inline-block;
-    position: relative;
+.box {
+  max-width: 256px;
+  height: 350px;
+  margin-top: 48px;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
 }
 
-.box .imgBox{
-    position: relative;
-    overflow: hidden;
+.box .imgBox {
+  position: relative;
+  overflow: hidden;
 }
 
-.box .boxIcons{
-    transition: 0.4s;
+.box .boxIcons {
+  transition: 0.4s;
 }
 
 .box:hover .boxIcons {
-    opacity: 1;
+  opacity: 1;
 }
 
-
-.box .imgBox .imgBoxImg{
-    max-width: 100% ;
-    height: 300px;
-    transition: transform 0.4s;
+.box .imgBox .imgBoxImg {
+  max-width: 100%;
+  height: 300px;
+  transition: transform 0.4s;
 }
 
-.box:hover .imgBox .imgBoxImg{
-    transform: scale(1.1);
+.box:hover .imgBox .imgBoxImg {
+  transform: scale(1.1);
 }
 
-.box:hover .imgBoxTitle{
-    margin-top: -60px;
-    z-index: 99;
+.box:hover .imgBoxTitle {
+  margin-top: -60px;
+  z-index: 99;
 }
 
-.box .imgBoxTitleDesc, .imgBoxTitle {
-    transition:  0.4s;
+.box .imgBoxTitleDesc,
+.imgBoxTitle {
+  transition: 0.4s;
 }
 
 .box:hover .imgBoxTitleDesc {
-    z-index: 99;
-    margin-top: -30px;
+  z-index: 99;
+  margin-top: -30px;
 }
 /*Hover*/
 
-
-
-body,html {
-    scroll-behavior:smooth ;
+body,
+html {
+  scroll-behavior: smooth;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-a, a:hover {
-    text-decoration: none;
+a,
+a:hover {
+  text-decoration: none;
 }
 
 /*.container {*/
@@ -81,305 +80,292 @@ a, a:hover {
 /*}*/
 
 .menu {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.66);
-    backdrop-filter: blur(5px);
-    z-index: 90;
-    animation: .5s ani alternate ease-in-out;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.66);
+  backdrop-filter: blur(5px);
+  z-index: 90;
+  animation: 0.5s ani alternate ease-in-out;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-    background-color: rgba(238, 238, 238, 0);
-    color: #FFFFFF;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: center;
-    border: none;
-    display: flex;
+  background-color: rgba(238, 238, 238, 0);
+  color: #ffffff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  display: flex;
 
-    justify-content: space-between;
-    outline: none;
-    transition: 0.4s;
+  justify-content: space-between;
+  outline: none;
+  transition: 0.4s;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
 
-
 .arrow {
-    transition: 0.3s;
-    transform: rotate(90deg);
+  transition: 0.3s;
+  transform: rotate(90deg);
 }
 
 @keyframes ani {
-    0% {
-        transform: translateX(2000px);
-    }
-    100% {
-
-    }
+  0% {
+    transform: translateX(2000px);
+  }
+  100% {
+  }
 }
 
 .menu-block {
-    position: absolute;
-    z-index: 100;
-    right: 0;
-    top: 0;
-    background: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    animation: .8s ani2 alternate ease-in-out;
+  position: absolute;
+  z-index: 100;
+  right: 0;
+  top: 0;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation: 0.8s ani2 alternate ease-in-out;
 }
 
 @media (max-width: 350px) {
-    .menu-block {
-        width: 100%;
-    }
+  .menu-block {
+    width: 100%;
+  }
 }
 
 .arrowClose {
-    transition: 0.3s;
-    transform: rotate(0deg);
+  transition: 0.3s;
+  transform: rotate(0deg);
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active {
-    /*background-color: #ccc;*/
+  /*background-color: #ccc;*/
 }
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-    padding: 0 18px;
-    height: 100%;
-    display: block;
-    overflow: hidden;
-    transition: 2s;
-    position: relative;
-    animation: anti;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-
+  padding: 0 18px;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  transition: 2s;
+  position: relative;
+  animation: anti;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
 }
 
-.panel-close{
-    padding: 0 18px;
-    height: 0;
-    display: block;
-    overflow: hidden;
-    transition: 2s;
-    position: relative;
-    animation: anti-close;
-    animation-duration: 0.5s;
-    animation-iteration-count: 1;
+.panel-close {
+  padding: 0 18px;
+  height: 0;
+  display: block;
+  overflow: hidden;
+  transition: 2s;
+  position: relative;
+  animation: anti-close;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
 }
 
 @keyframes anti-close {
-    0% {
-        height: 1000px;
-    }
-    99% {
-        height: 1px;
-    }
-    100% {
-        height: 1px;
-    }
+  0% {
+    height: 1000px;
+  }
+  99% {
+    height: 1px;
+  }
+  100% {
+    height: 1px;
+  }
 }
 
 @keyframes anti {
-    0% {
-        height: 0;
-    }
-    99% {
-        height: 1000px;
-    }
-    100% {
-        height: 100%;
-    }
+  0% {
+    height: 0;
+  }
+  99% {
+    height: 1000px;
+  }
+  100% {
+    height: 100%;
+  }
 }
 
-
 @keyframes ani2 {
-    0% {
-        transform: translateY(-1000px);
-    }
-    100% {
-
-    }
+  0% {
+    transform: translateY(-1000px);
+  }
+  100% {
+  }
 }
 
 .panelClose {
-    padding: 0 18px;
-    background-color: white;
-    height: 100%;
-    display: none;
-    overflow: hidden;
-    transition: 2s;
-    position: relative;
-    animation: antiClose;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-
+  padding: 0 18px;
+  background-color: white;
+  height: 100%;
+  display: none;
+  overflow: hidden;
+  transition: 2s;
+  position: relative;
+  animation: antiClose;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
 }
 
 @keyframes antiClose {
-    0% {
-        height: 1200px;
-    }
-    100% {
-        height: 0;
-        display: none;
-    }
+  0% {
+    height: 1200px;
+  }
+  100% {
+    height: 0;
+    display: none;
+  }
 }
 
-
-
-.title{
-    z-index: 100;
+.title {
+  z-index: 100;
 }
 @media (max-width: 1016px) {
-    .title{
-        width: 100%;
-
-    }
+  .title {
+    width: 100%;
+  }
 }
 @media (max-width: 768px) {
-    .title{
-        height: 25%;
-    }
+  .title {
+    height: 25%;
+  }
 }
 @media (max-width: 415px) {
-    .title{
-        height:25.2% ;
-    }
+  .title {
+    height: 25.2%;
+  }
 }
 @media (max-width: 412px) {
-    .title{
-        height: 25%;
-    }
+  .title {
+    height: 25%;
+  }
 }
 @media (max-width: 393px) {
-    .title{
-        height: 25.7%;
-        padding-right: 100px;
-    }
+  .title {
+    height: 25.7%;
+    padding-right: 100px;
+  }
 }
 @media (max-width: 391px) {
-    .title{
-        height: 25.7%;
-        padding-right: 10px;
-    }
+  .title {
+    height: 25.7%;
+    padding-right: 10px;
+  }
 }
 @media (max-width: 376px) {
-    .title{
-        height: 26%;
-    }
+  .title {
+    height: 26%;
+  }
 }
 @media (max-width: 360px) {
-    .title{
-        height: 26.8%;
-        padding-right: 10px;
-    }
+  .title {
+    height: 26.8%;
+    padding-right: 10px;
+  }
 }
 @media (max-width: 300px) {
-    .title{
-        height: 24.8%;
-    }
+  .title {
+    height: 24.8%;
+  }
 }
-.gallery{
-    column-count: 1;
-    -webkit-column-width: fill-available;
-    -moz-column-width: fill-available;
-    column-width: fill-available;
-    padding: 12px;
-}
-
-.gallery .pics{
-    -webkit-transition: all 350ms ease;
-    transition: all 350ms ease;
-    cursor: pointer;
-    margin-bottom: 12px;
+.gallery {
+  column-count: 1;
+  -webkit-column-width: fill-available;
+  -moz-column-width: fill-available;
+  column-width: fill-available;
+  padding: 12px;
 }
 
-.gallery .pics:hover{
-    filter: opacity(0.8);
+.gallery .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.gallery .pics:hover {
+  filter: opacity(0.8);
 }
 
 @media (max-width: 1991px) {
-    .gallery{
-        column-count: 3;
-    }
-
+  .gallery {
+    column-count: 3;
+  }
 }
 
 @media (max-width: 991px) {
-    .gallery{
-        column-count: 2;
-    }
-
+  .gallery {
+    column-count: 2;
+  }
 }
 
 @media (max-width: 600px) {
-    .gallery{
-        column-count: 1 !important;
-    }
-
+  .gallery {
+    column-count: 1 !important;
+  }
 }
 
-
 /*model*/
-.model{
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    background: #000;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: opacity .4s ease, visibility .4s ease, transform .5s ease-in-out;
-    visibility: hidden;
-    opacity: 0;
-    transform: scale(0);
-    overflow: hidden;
-    z-index: 999;
+.model {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background: #000;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.4s ease, visibility 0.4s ease,
+    transform 0.5s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0);
+  overflow: hidden;
+  z-index: 999;
 }
 
 .model.open {
-    visibility: visible;
-    opacity: 1;
-    transform: scale(1);
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
 }
 
-.model img{
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    max-height: 100%;
-    display: block;
-    line-height: 0;
-    box-sizing: border-box;
-    padding: 20px 0 20px;
-    margin: 0 auto;
+.model img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  display: block;
+  line-height: 0;
+  box-sizing: border-box;
+  padding: 20px 0 20px;
+  margin: 0 auto;
 }
-
 
 .model.open span {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    width: 2rem;
-    height: 2rem;
-    padding: 5px;
-    font-size: 32px;
-    background-color: rgba(0,0,0,0.4);
-    color: #FFFFFF;
-    cursor: pointer;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 2rem;
+  height: 2rem;
+  padding: 5px;
+  font-size: 32px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+  cursor: pointer;
 }

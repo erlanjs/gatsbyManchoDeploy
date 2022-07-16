@@ -1,14 +1,14 @@
-import Hero from "../../pages/home/hero";
-import * as ReactDOM from "react-dom";
-import React from "react";
+import React from "react"
+import * as ReactDOM from "react-dom"
 
+import Hero from "../../components/pages/home/hero"
 
 describe("Hero components test", () => {
   let container: HTMLDivElement
   beforeEach(() => {
-    container = document.createElement('div')
+    container = document.createElement("div")
     document.body.appendChild(container)
-    ReactDOM.render(<Hero/>, container)
+    ReactDOM.render(<Hero />, container)
   })
 
   afterEach(() => {

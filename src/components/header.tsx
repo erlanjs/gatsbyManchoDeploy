@@ -1,10 +1,10 @@
-import * as React from "react";
-import Burgermenu from "./burgermenu";
-import { StaticImage } from "gatsby-plugin-image";
-import { Link } from "gatsby";
-import Contact from "./pages/home/contact";
-import AllCommand from "./pages/home/all-comand";
+import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
+import * as React from "react"
 
+import Burgermenu from "./burgermenu"
+import AllCommand from "./pages/home/all-comand"
+import Contact from "./pages/home/contact"
 
 const Header = () => (
   <div className="bg-[#1F1F1F] py-5 fixed w-full z-50">
@@ -19,9 +19,9 @@ const Header = () => (
               width={200}
               formats={["auto", "webp", "avif"]}
               alt="img"
-              className="" />
+              className=""
+            />
           </Link>
-
         </div>
         <div className="ssm:w-[50%] pt-3 ssm:pl-[40%] sm:pl-[40%] md:pl-[45%]  ssm:block sm:block sm:w-[50%] md:block md:w-[50%] lg:hidden xl:hidden xxl:hidden">
           <Burgermenu />
@@ -29,16 +29,40 @@ const Header = () => (
       </div>
       <div className="w-[70%] flex justify-center ssm:hidden sm:hidden md:hidden lg:block xl:block xxl:block">
         <div className="flex justify-between w-full pt-5">
-          <Link to={"#About"} className="text-white no-underline hover:border-white hover:border-b-2">О компании</Link>
-          <Link to={"#Products"} className="text-white no-underline hover:border-white hover:border-b-2">Продукты</Link>
-          <Link to={"#AllCommand"} className="text-white no-underline hover:border-white hover:border-b-2">Наша команда</Link>
-          <Link to={"#Contact"} className="text-white no-underline hover:border-white hover:border-b-2">Контакты</Link>
-          <Link to={"/gallery"} className="text-white no-underline hover:border-white hover:border-b-2">Галерея</Link>
+          <Link
+            to={"#About"}
+            className="text-white no-underline hover:border-white hover:border-b-2"
+          >
+            О компании
+          </Link>
+          <Link
+            to={"#Products"}
+            className="text-white no-underline hover:border-white hover:border-b-2"
+          >
+            Продукты
+          </Link>
+          <Link
+            to={"#AllCommand"}
+            className="text-white no-underline hover:border-white hover:border-b-2"
+          >
+            Наша команда
+          </Link>
+          <Link
+            to={"#Contact"}
+            className="text-white no-underline hover:border-white hover:border-b-2"
+          >
+            Контакты
+          </Link>
+          <Link
+            to={"/gallery"}
+            className="text-white no-underline hover:border-white hover:border-b-2"
+          >
+            Галерея
+          </Link>
         </div>
       </div>
     </div>
   </div>
-);
+)
 
-
-export default Header;
+export default Header
