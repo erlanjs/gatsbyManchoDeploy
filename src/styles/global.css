@@ -1,6 +1,6 @@
 @import "./icons.css";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import "../components/UI-components/Htag/Title.modile.css";
+@import "../components/UI-components/Title/Title.modile.css";
 
 @tailwind base;
 @tailwind components;
@@ -152,7 +152,7 @@ a:hover {
 }
 
 /* Style the accordion panel. Note: hidden by default */
-.panel {
+.accordionOpen {
   padding: 0 18px;
   height: 100%;
   display: block;
@@ -164,7 +164,7 @@ a:hover {
   animation-iteration-count: 1;
 }
 
-.panel-close {
+.accordionClose {
   padding: 0 18px;
   height: 0;
   display: block;

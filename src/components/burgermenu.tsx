@@ -11,13 +11,13 @@ const Burgermenu = () => {
   return (
     <div>
       <FontAwesomeIcon
-        data-testid="menu-btn"
+        data-testid="openMenu-btn"
         className="text-white text-3xl mb-[10px] text-end"
         onClick={() => setMenu(true)}
         icon={faBars}
       />
       {menu && (
-        <div data-testid="menu-elem" className="menu">
+        <div data-testid="menu-elements" className="menu">
           <div className="menu-block">
             <div className="w-full  flex justify-between mt-5 px-5">
               <div className="w-[70%] flex justify-start">

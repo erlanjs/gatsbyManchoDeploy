@@ -2,7 +2,7 @@ import React from "react"
 
 // @ts-ignore
 import bg from "../../../images/products-bg.png"
-import { media } from "../../media"
+import { media } from "../../UI-components/mediaScreen/media"
 
 const Products = (): JSX.Element => {
   return (

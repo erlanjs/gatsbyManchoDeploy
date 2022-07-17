@@ -1,7 +1,7 @@
 import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
 
-import { media } from "../../media"
+import { media } from "../../UI-components/mediaScreen/media"
 
 const FounderSeo = () => {
   return (

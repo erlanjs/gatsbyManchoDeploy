@@ -4,7 +4,7 @@ import React, { FC, useEffect, useState } from "react"
 
 import { Title } from "../components/UI-components"
 import Layout from "../components/layout"
-import { media } from "../components/media"
+import { media } from "../components/UI-components/mediaScreen/media"
 
 type Props = RouteComponentProps<{
   results: string
