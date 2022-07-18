@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react"
 import React from "react"
 
-import Command from "../../components/pages/about-company/command"
+import Command from "../../components/pages/about-company-pages/command"
 
 describe("Command components test", () => {
   test("Title query", async () => {

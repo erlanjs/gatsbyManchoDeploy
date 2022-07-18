@@ -6,6 +6,7 @@ import React, { useEffect, useState } from "react"
 import { Title } from "../components/UI-components"
 import Layout from "../components/layout"
 import { media } from "../components/UI-components/mediaScreen/media"
+import Seo from "../components/seo";
 
 const Gallery = () => {
   const [dataAlbums, setDataAlbums] = useState([])
@@ -26,6 +27,7 @@ const Gallery = () => {
 
   return (
     <Layout>
+      <Seo title={"Галерея"} description="Мы – продуктовая IT компания и наша миссия – оптимизировать процессы, используя технологии, во благо людей." lang="Ru"/>
       {active ? (
         <div className="pt-40 pb-[40px]">
           <div className="container mx-auto">

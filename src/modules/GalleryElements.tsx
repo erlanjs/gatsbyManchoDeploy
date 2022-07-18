@@ -5,12 +5,13 @@ import React, { FC, useEffect, useState } from "react"
 import { Title } from "../components/UI-components"
 import Layout from "../components/layout"
 import { media } from "../components/UI-components/mediaScreen/media"
+import Seo from "../components/seo";
 
 type Props = RouteComponentProps<{
   results: string
 }>
 
-export const RandomPerson: FC<Props> = ({ results = 1 }) => {
+export const GalleryElements: FC<Props> = ({ results = 1 }) => {
   const [photos, setPhotos] = useState(false)
 
   useEffect(() => {
@@ -32,6 +33,7 @@ export const RandomPerson: FC<Props> = ({ results = 1 }) => {
   const { photo, title }: any = photos
   return (
     <Layout>
+      <Seo title={title} description={photo?.length} lang="Ru"/>
       <section className="bg-[#1F1F1F]">
         {photos ? (
           <div className="pt-[100px] ">

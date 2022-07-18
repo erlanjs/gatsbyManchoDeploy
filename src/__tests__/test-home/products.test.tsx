@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react"
 import React from "react"
 
-import Products from "../../components/pages/home/products"
+import Products from "../../components/pages/main-pages/products"
 
 describe("Products Components test", () => {
   test("Medcheck test", () => {
