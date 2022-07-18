@@ -70,28 +70,28 @@ const Burgermenu = () => {
                 <div className="flex flex-col mt-7 justify-end h-[250px]">
                   <Link
                     onClick={() => setMenu(false)}
-                    to={"#About"}
+                    to={"/#About"}
                     className="text-[20px] leading-[40px] text-[#1F1F1F] pb-5 "
                   >
                     О компании
                   </Link>
                   <Link
                     onClick={() => setMenu(false)}
-                    to={"#Products"}
+                    to={"/#Products"}
                     className="text-[20px] leading-[40px] text-[#1F1F1F] pb-5 "
                   >
                     Продукты
                   </Link>
                   <Link
                     onClick={() => setMenu(false)}
-                    to={"#AllCommand"}
+                    to={"/#AllCommand"}
                     className="text-[20px] leading-[40px] text-[#1F1F1F] pb-5 "
                   >
                     Наша команда
                   </Link>
                   <Link
                     onClick={() => setMenu(false)}
-                    to={"#Contact"}
+                    to={"/#Contact"}
                     className="text-[20px] leading-[40px] text-[#1F1F1F] pb-5 "
                   >
                     Контакты

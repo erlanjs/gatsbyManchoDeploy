@@ -47,7 +47,7 @@ const Hero = () => {
                 alt=""
                 className="absolute right-0 z-10 ssm:w-[100%] ssm:h-[100vh] sm:w-[100%] sm:h-[100vh] md:w-[100%] md:h-[100vh] lg:w-[100%] lg:h-[100vh] xl:w-[143%] xl:h-[455px] xxl:w-[100%] xxl:h-[555px] "
               />
-              <div className="sm:p-1 ssm:block sm:block md:block xl:hidden absolute bottom-[0px] z-20 md:p-2">
+              <div className="sm:p-1 ssm:block sm:block md:block xl:hidden absolute bottom-[20px] z-20 md:p-2">
                 <p className="z-20 text-white ssm:text-[12px] ssm:font-[500] sm:text-[12px] sm:font-[500] md:text-[16px] md:font-[600] lg:text-[16px] lg:font-[600] ">
                   Наша миссия — оптимизировать процессы, используя технологии,
                   во благо людей.

@@ -27,22 +27,22 @@ const Header = () => (
       <div className=" flex justify-center lg:w-[170%] xl:w-[170%] xxl:w-[150%] ssm:hidden sm:hidden md:hidden lg:block xl:block xxl:block">
         <div className="flex justify-between w-full pt-5">
           <Link
-            to={"#About"}
+            to={"/#About"}
             className="mx-1 text-white no-underline hover:border-white hover:border-b-2">
             О компании
           </Link>
           <Link
-            to={"#Products"}
+            to={"/#Products"}
             className="mx-1 text-white no-underline hover:border-white hover:border-b-2">
             Продукты
           </Link>
           <Link
-            to={"#AllCommand"}
+            to={"/#AllCommand"}
             className="mx-1 text-white no-underline hover:border-white hover:border-b-2">
             Наша команда
           </Link>
           <Link
-            to={"#Contact"}
+            to={"/#Contact"}
             className="mx-1 text-white no-underline hover:border-white hover:border-b-2">
             Контакты
           </Link>

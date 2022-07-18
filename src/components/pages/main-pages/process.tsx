@@ -1,7 +1,7 @@
 import React from "react"
 
 // @ts-ignore
-import bg from "../../../images/prosess-bg.png"
+import bg from "../../../images/products-bg.png"
 
 const Process = (): JSX.Element => {
   return (
@@ -25,7 +25,7 @@ const Process = (): JSX.Element => {
         </div>
       </div>
       <div
-        style={{ background: `url(${bg}) no-repeat center` }}
+        style={{ background: `url(${bg}) no-repeat left/contain fixed` }}
         className="py-8"
       >
         <div className="container mx-auto w-full  ">

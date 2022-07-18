@@ -93,14 +93,6 @@ const Gallery = () => {
                 alt="images"
                 className="w-[100%] h-[258px] my-2 ssm:h-[187px] sm:h-[287px] md:h-[329px]"
               />
-              <StaticImage
-                src={"../../../images/gallery_img_5.jpg"}
-                loading="eager"
-                quality={95}
-                formats={["auto", "webp", "avif"]}
-                alt="images"
-                className="w-[100%] block  h-[258px] my-2 ssm:h-[187px] sm:h-[287px] md:h-[329px] lg:hidden"
-              />
             </div>
           </div>
           <div className="text-center block lg:hidden">
