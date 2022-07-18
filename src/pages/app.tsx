@@ -1,12 +1,12 @@
 import { Router as MyRouter } from "@reach/router"
 import React from "react"
 
-import { RandomPerson } from "../modules/RandomPerson"
+import { GalleryElements } from "../modules/GalleryElements"
 
 const Router = () => {
   return (
     <MyRouter>
-      <RandomPerson path="/app/gallery/:results" />
+      <GalleryElements path="/app/gallery/:results" />
     </MyRouter>
   )
 }

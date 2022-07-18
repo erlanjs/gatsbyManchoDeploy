@@ -1,7 +1,7 @@
 import { fireEvent, render, screen } from "@testing-library/react"
 import React from "react"
 
-import Vacancy from "../../components/pages/about-company/vacancy"
+import Vacancy from "../../components/pages/about-company-pages/vacancy"
 
 describe("Vacancy Components Test", () => {
   test("query test", () => {

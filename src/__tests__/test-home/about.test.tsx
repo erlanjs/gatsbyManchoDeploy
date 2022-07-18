@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react"
 import React from "react"
 import * as ReactDOM from "react-dom"
 
-import About from "../../components/pages/home/about"
+import About from "../../components/pages/main-pages/about"
 
 describe("Hero components test", () => {
   let container: HTMLDivElement

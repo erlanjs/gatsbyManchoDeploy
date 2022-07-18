@@ -1,7 +1,7 @@
 import React from "react"
 import * as ReactDOM from "react-dom"
 
-import Hero from "../../components/pages/home/hero"
+import Hero from "../../components/pages/main-pages/hero"
 
 describe("Hero components test", () => {
   let container: HTMLDivElement

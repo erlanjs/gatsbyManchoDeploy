@@ -1,6 +1,6 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import AllCommand from "../../components/pages/home/all-comand";
+import AllCommand from "../../components/pages/main-pages/all-comand";
 
 
 describe("AllCommand Components test", () => {

@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react"
 import React from "react"
 
-import Сondition from "../../components/pages/about-company/Сondition"
+import Сondition from "../../components/pages/about-company-pages/Сondition"
 
 describe("Сondition components test", () => {
   test("Title query", () => {

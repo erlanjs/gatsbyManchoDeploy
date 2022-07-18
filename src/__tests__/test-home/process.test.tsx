@@ -1,10 +1,16 @@
+<<<<<<< HEAD
 import {render, screen } from "@testing-library/react"
+=======
+import { render, screen } from "@testing-library/react"
+>>>>>>> fd9919e370852bc2644f6bb2b1c19ffb6dbd245a
 import React from "react"
-
-import Process from "../../components/pages/home/process"
-
+import Process from "../../components/pages/main-pages/process"
 describe("Process", () => {
+<<<<<<< HEAD
   const {container} = render(<Process />)
+=======
+  let {container} = render(<Process />)
+>>>>>>> fd9919e370852bc2644f6bb2b1c19ffb6dbd245a
   test("Process query elements", () => {
     const title = screen.getByText(/How we are working?/i)
     expect(title).toBeInTheDocument()
