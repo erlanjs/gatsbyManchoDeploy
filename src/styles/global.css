@@ -74,10 +74,6 @@ a:hover {
   text-decoration: none;
 }
 
-/*.container {*/
-/*    width: 1170px;*/
-/*    margin: 0 auto;*/
-/*}*/
 
 .menu {
   width: 100%;
@@ -85,27 +81,13 @@ a:hover {
   position: fixed;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.66);
   backdrop-filter: blur(5px);
   z-index: 90;
   animation: 0.5s ani alternate ease-in-out;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-  background-color: rgba(238, 238, 238, 0);
-  color: #ffffff;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: center;
-  border: none;
-  display: flex;
 
-  justify-content: space-between;
-  outline: none;
-  transition: 0.4s;
-}
 
 /* Style the buttons that are used to open and close the accordion panel */
 
@@ -119,6 +101,7 @@ a:hover {
     transform: translateX(2000px);
   }
   100% {
+    transform: translateX(0px);
   }
 }
 
@@ -135,46 +118,15 @@ a:hover {
   animation: 0.8s ani2 alternate ease-in-out;
 }
 
-@media (max-width: 350px) {
-  .menu-block {
-    width: 100%;
-  }
-}
-
-.arrowClose {
-  transition: 0.3s;
-  transform: rotate(0deg);
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active {
-  /*background-color: #ccc;*/
-}
-
-/* Style the accordion panel. Note: hidden by default */
-.accordionOpen {
-  padding: 0 18px;
-  height: 100%;
-  display: block;
-  overflow: hidden;
-  transition: 2s;
-  position: relative;
-  animation: anti;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-}
-
-.accordionClose {
-  padding: 0 18px;
-  height: 0;
-  display: block;
-  overflow: hidden;
-  transition: 2s;
-  position: relative;
-  animation: anti-close;
-  animation-duration: 0.5s;
-  animation-iteration-count: 1;
-}
+@keyframes antiClose {
+   0% {
+     height: 1200px;
+   }
+   100% {
+     height: 0;
+     display: none;
+   }
+ }
 
 @keyframes anti-close {
   0% {
@@ -202,11 +154,69 @@ a:hover {
 
 @keyframes ani2 {
   0% {
-    transform: translateY(-1000px);
+    transform: translateX(1000px);
   }
   100% {
+    transform: translateX(0px);
   }
 }
+
+
+@media (max-width: 350px) {
+  .menu-block {
+    width: 100%;
+  }
+}
+
+.arrowClose {
+  transition: 0.3s;
+  transform: rotate(0deg);
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active {
+  /*background-color: #ccc;*/
+}
+
+.accordion {
+  background-color: rgba(238, 238, 238, 0);
+  color: #ffffff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  display: flex;
+
+  justify-content: space-between;
+  outline: none;
+  transition: 0.4s;
+}
+/* Style the accordion panel. Note: hidden by default */
+.accordionOpen {
+  padding: 0 18px;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  transition: 2s;
+  position: relative;
+  animation: anti;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+.accordionClose {
+  padding: 0 18px;
+  height: 0;
+  display: block;
+  overflow: hidden;
+  transition: 2s;
+  position: relative;
+  animation: anti-close;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+}
+
 
 .panelClose {
   padding: 0 18px;
@@ -221,66 +231,10 @@ a:hover {
   animation-iteration-count: 1;
 }
 
-@keyframes antiClose {
-  0% {
-    height: 1200px;
-  }
-  100% {
-    height: 0;
-    display: none;
-  }
-}
+
 
 .title {
   z-index: 100;
-}
-@media (max-width: 1016px) {
-  .title {
-    width: 100%;
-  }
-}
-@media (max-width: 768px) {
-  .title {
-    height: 25%;
-  }
-}
-@media (max-width: 415px) {
-  .title {
-    height: 25.2%;
-  }
-}
-@media (max-width: 412px) {
-  .title {
-    height: 25%;
-  }
-}
-@media (max-width: 393px) {
-  .title {
-    height: 25.7%;
-    padding-right: 100px;
-  }
-}
-@media (max-width: 391px) {
-  .title {
-    height: 25.7%;
-    padding-right: 10px;
-  }
-}
-@media (max-width: 376px) {
-  .title {
-    height: 26%;
-  }
-}
-@media (max-width: 360px) {
-  .title {
-    height: 26.8%;
-    padding-right: 10px;
-  }
-}
-@media (max-width: 300px) {
-  .title {
-    height: 24.8%;
-  }
 }
 .gallery {
   column-count: 1;

@@ -37,12 +37,12 @@ const Burgermenu = () => {
                 icon={faX}
               />
             </div>
-            <div className="flex justify-between w-full ">
+            <div className="flex justify-between w-full">
               <div className="">
                 <h1 className="text-9xl h-[120px] font-[900] pl-3">D</h1>
                 <h1 className="text-9xl h-[120px] font-[900] pl-3">E</h1>
                 <h1 className="text-9xl h-[120px] font-[900] pl-3">V</h1>
-                <div className="text-9xl w-[170%] mt-3 pl-4 mr-5 h-[140px] font-[900] text-white bg-[#1F1F1F] w-full flex justify-between">
+                <div className="text-9xl w-[200%] mt-3 pl-4 mr-5 h-[140px] font-[900] text-white bg-[#1F1F1F] w-full flex justify-between">
                   S
                   <div className="flex justify-between w-[70%] bg-[#1F1F1F] flex-wrap mt-5">
                     <p className="text-xl w-[26%]">
@@ -66,7 +66,7 @@ const Burgermenu = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col justify-between w-[50%] h-[350px]">
+              <div className="pt-16 flex flex-col justify-between w-[50%] h-[100%]">
                 <div className="flex flex-col mt-7 justify-end h-[250px]">
                   <Link
                     onClick={() => setMenu(false)}
